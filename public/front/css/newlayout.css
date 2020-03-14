@@ -1,0 +1,893 @@
+/* 
+    Document   : newlayout
+    Created on : Aug 12, 2017, 2:56:11 PM
+    Author     : user
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* forage-seed-1 Start */
+
+.product-title.pagemaintitle h3:before{
+    display: none;
+}
+.col-1-headng{
+
+    padding: 12px 5px 5px 12px;
+    color: #fff;
+}
+.haygrazerbg{
+    background-color: #017534;
+}
+.gesecobg{
+     background-color: #009241;
+}
+.specializedhaybg{
+   background-color: #5CA137;
+}
+.organicbg{
+     background-color: #6CB540;
+}
+.specializedbg{
+    background-color: #009241;
+}
+.specializedgrassesbg{
+     background-color: #5CA137;
+}
+.logobg{
+    background-color: #007932;
+}
+.lightgreenbg{
+    background-color: #7DBC42;
+}
+.col-1-headng h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.col-1-headng h3 span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #A8B6BF;
+}
+.margin-top-5{
+    margin-top: 5px;
+}
+.padding-5{
+    padding: 5px;
+}
+.padding-left-5{
+    padding-left: 5px;
+}
+.nopadding{
+    padding: 0 !important;
+}
+.height-210{
+    height: 210px;
+}
+.height-300{
+    height: 300px;
+}
+.height-290{
+    height: 290px;
+}
+.font-size-12{
+    font-size: 12px;
+}
+ul.col-1-ul{
+    padding-left: 20px;
+}
+ul.col-1-ul li{
+    font-size: 12px;
+    list-style: none;
+}
+ul.col-1-ul li::before {
+    color: #02843E;
+    content: "•";
+    display: block;
+    font-size: 25px;
+    left: -14px;
+    max-height: 0;
+    max-width: 0;
+    position: relative;
+    top: -11px;
+}
+.col-3-main h4{
+    color: gray;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 8px;
+}
+.lightgreenbgline{
+    height: 5px;
+    background-color: #7DBC42;
+}
+.backgroundimagebottom{
+    width: 100%;
+    height: 605px;
+    background: #fff url('../images/generalseed/farm.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    /*object-fit: cover;*/
+}
+.companyname{
+    color: #7DBC42;
+    font-size: 20px;
+    font-weight: 600;
+}
+.addline{
+    color: #fff;
+    font-size: 10px;
+}
+.lastcoulamimages{
+    height: 889px;
+    background: #D0D0CD url('../images/generalseed/img1-old.png') no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    object-fit: cover;
+}
+.product_page.page_wrapper{
+    width: 100%;
+}
+.lastcoulamimages h1{
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+}
+.lastcoulamimages {
+    position:relative;
+}
+.lastcoulamimages h3{
+    font-weight: bold;
+    color: #000;
+    text-align: right;
+    padding-right: 30px;
+}
+.marketing-bottom{
+    color: #fff;
+    text-align: center;
+
+}
+.marketing-bottom .bottom-main{
+    position:absolute;
+    bottom:25px;
+    right:0;
+    width: 100%;
+}
+.marketing-bottom .bottom-main hr{
+    width: 60%;
+    margin: auto;
+    height: 2px;
+    border-top: 3px solid #7DBC42;
+}
+.marketing-bottom .bottom-main .linefirst span{
+    font-weight: 600;
+}
+/* forage-seed-1 End */
+
+/* forage-seed-2 Start */
+.perfectionbg{
+    background-color: #017534;
+}
+.cornerstonebg{
+     background-color: #009241;
+}
+.performerbg{
+     background-color: #5CA137;
+}
+.endurancebg{
+    background-color: #6CB540;
+}
+.pd
+{
+    padding: 0px 20px 0px 20px; 
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td.g{
+    border-bottom: 1px solid #D2D7DB ;
+    color:#007533;
+    padding-left: 5px;
+}
+.graybc{
+    background: #EBECEE;
+}
+td.g2{
+    border-bottom: 1px solid #D2D7DB ;
+    color:black;
+}
+th{
+    border-bottom: 1px solid #D2D7DB ;
+    border-top: 1px solid #D2D7DB ;
+    color:darkgray;
+    background-color: #EBECEE;
+}
+.bg1{
+    border-bottom: 1px solid #8F999A ;
+    border-top: 1px solid #8F999A ;
+    color:white;
+    background-color: #A8A9AD;
+}
+.bd1
+{
+
+    border-bottom: px solid #017534 ;
+}
+.bd
+{
+
+    background-color: #017534 ; 
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 3px;
+}
+.bdr
+{
+    margin-top: 10px;
+    border-top: 10px solid #017534 ;
+}
+.bdlight1
+{
+
+    background-color: #009241 ; 
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 3px;
+}
+.bdr1
+{
+    margin-top: 10px;
+    border-top: 10px solid #009241 ;
+}
+.bdlight2
+{
+
+    background-color:#5CA137 ; 
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 3px;
+
+}
+.bdr2
+{
+    margin-top: 10px;
+    border-top: 10px solid #5CA137 ;
+}
+.bdlight3
+{
+
+    background-color:#6CB540 ; 
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 3px;
+
+}
+.bdr3
+{
+    margin-top: 10px;
+    border-top: 10px solid #6CB540 ;
+}    
+/* forage-seed-2 End */
+
+/* silage_corn_1 Start */
+
+.right-name {
+    float: right;
+    text-align: right;
+}
+.left-name {
+    color: #015825;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+    text-align: left;
+    width: 100%;
+    line-height: 40px;
+}
+.col-md-2.first {
+    float: left;
+    text-align: left;
+    width: 280px;
+}
+.col-md-2.third {
+    float: right;
+    text-align: right;
+}
+.col-md-2.first > span {
+    font-weight: bold;
+    color: #015825;
+}
+.heading {
+    font-weight: bold;
+    color: #015825;
+}
+.contain-box{
+    border:2px solid #a6b0b9; 
+    border-bottom: none;
+    padding:10px;
+}
+.contain-box.last-box{
+    border-bottom:2px solid #a6b0b9; 
+}
+.contain-box .col-md-3,
+.contain-box .col-md-4,
+.contain-box .col-md-5
+{
+    padding: 0;
+}
+.contain-box .first span{
+    font-weight: bold;
+    color: #004314;
+    text-transform: uppercase;
+    margin-bottom: -5px;
+    display: block;
+}
+.heading-div{
+    margin-bottom: 10px;
+}
+.heading-div .col-md-3,
+.heading-div .col-md-4,
+.heading-div .col-md-5
+{
+    padding: 0;
+}
+.heading-div span{
+    font-weight: bold;
+    color: #004314;
+    text-transform: uppercase;
+    display: block;
+}
+.contain-box .first .col-md-6{
+    padding: 0;
+}
+.contain-box .first .col-md-6 img{
+    margin-bottom: 10px;
+}
+.text-center{
+    text-align: center !important;
+}
+.text-right{
+    text-align: right !important;
+}
+.display-block{
+    display: block !important;
+}
+.heading.display-block{
+    margin-bottom: 15px;
+}
+/* silage_corn_2 End */
+
+/* cover corp one start*/
+.covercrop-one td p{
+    margin: 2px;
+}
+
+.covercrop-one table td{
+    border: 1px solid #bcbcbc;
+    padding: 5px;
+}
+tr.tablegreenbc{
+    background-color: #016D2F;
+    color: #fff;
+    text-align: center;
+    
+}
+
+tr.purpalbc{
+    background-color: #8D3A68;
+    color: #fff;
+    
+}
+tr.purpalbc td{
+    padding: 5px;
+    font-size: 14px;
+}
+tr.purpalbc td p span{
+   font-weight: 600;
+   font-size: 18px;
+}
+tr.tablegreenbc td{
+    padding: 5px;
+    
+}
+.covercrop-one table tbody tr{
+    border-spacing: 2px;
+    border-collapse: separate;
+}
+
+.covercrop-one table tbody{
+    border: 3px solid #7C7D7F;
+}
+tr.purpalbcsecond{
+    background-color: #8D3A68;
+    color: #fff;
+    text-align: center;
+}
+/* cover crop one end */
+
+/* cover crop two start */
+.covercrop-two-top{
+    background: linear-gradient(green, white);
+}
+.covercrop-two .mainheadding h1{
+    color: #fff;
+    font-size: 70pt;
+    font-weight: bold;
+    text-align: center;
+}
+.covercrop-two .firstrow img{
+    border: 5px solid #fff;
+    height: 285px;
+}
+.covercrop-two .firstrow h3{
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+.margin-bottom-30{
+    margin-bottom: 30x;
+}
+.covercrop-two hr{
+    border: 1px solid #000;
+}
+.covercrop-two-bottom h4{
+    color: #8D3A68;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.covercrop-two-bottom ul.col-1-ul li {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.covercrop-two-bottom .circle ul.col-1-ul li::before{
+    color: #fff;
+}
+.covercrop-two-bottom ul.col-1-ul li::before {
+  color: #02843e;
+  content: "•";
+  display: block;
+  font-size: 24px;
+  left: -14px;
+  max-height: 0;
+  max-width: 0;
+  position: relative;
+  top: 0;
+}
+.covercrop-two-bottom .circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50% !important;
+    background: #8D3A68;
+    display: table-cell;
+   text-align: left;
+   vertical-align: middle;
+   color: #fff;
+}
+.covercrop-two-bottom .circle ul.col-1-ul{
+    padding-left: 40px;
+}
+.covercrop-two-bottom .bottom-first-col, .covercrop-two-bottom .bottom-second-col {
+    border-right: 2px dotted #ACACAC;
+    padding-left: 25px;
+}
+.covercrop-two-bottom .bottom-second-col {
+    padding-top: 215px;
+}
+.covercrop-two-bottom{
+    width: 100%;
+    height: 100%;
+    background: #fff url('../images/generalseed/product-4-2-new-bg-2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.last-bottom-text h4{
+    color: #8D3A68;
+    font-weight: 600;
+    margin-top: 25px;
+    font-size: 23px;
+}
+.last-bottom-text p{
+    font-style: italic;
+    margin: 0px;
+}
+hr{
+border: 1px solid #ACACAC !important;
+}
+.last-bottom-text hr{
+    margin: 5px 0;
+}
+.ask-your{
+    background-color: #015825;
+    color: #fff;
+    font-size: 29px;
+}
+.phoneno{
+    color: #8D3A68;
+    font-weight: 600;
+    margin-left: 25px;
+    font-size: 34px;
+}
+.forageseedpage p{
+    font-size: 11px;
+    margin: 10px 0;
+}
+.turf-see-8{
+    width: 100%;
+    height: 100%;
+    background:  url('../images/generalseed/turf-seed-8-new.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin: 0px;
+}
+
+.turf-see-8 .new-lawn{
+    font-size: 30px;
+    color: #FFE6AF;
+}
+.turf-see-8 .new-lawn-p p{
+    color: white;
+    font-size: 14px;
+}
+ .turf-see-8-bottom{
+   margin: 0px;
+    background: #007533;
+    padding: 10px 50px;
+}
+.turf-seed-8-bottom-logo img{
+    width: 100%;
+}
+.turf-see-8-bottom .general-seed{
+    margin-top: 70px;
+     color: #FFE6AF;
+      font-size: 30px;
+}
+.turf-see-8-bottom .a-division{
+    color: #fff;
+    font-size: 22px;
+}
+.turf-see-8-bottom .alberton{
+    color: #fff;
+    font-size: 22px;
+}
+.turf-see-8-bottom .telphone span{
+     color: #FFF;
+    font-size: 15px;
+}
+.turf-see-8-bottom .telphone {
+     color: #FFE6AF;
+    font-size: 22px;
+}
+.turf-see-8-bottom .website{
+    color: #FFE6AF;
+    font-size: 22px;
+}
+.turf-see-6{
+    width: 100%;
+    height: 100%;
+    background:  url('../images/generalseed/turf-seed-6-new.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin: 0px;
+}
+.turf-see-6 h1{
+    color: #034915;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.turf-see-6 .kentucky{
+    padding-left: 30px;
+    width: 700px;
+}
+.turf-see-6 .kentucky h3{
+    font-weight: bold;
+}
+.turf-see-6 .kentucky p{
+    margin-top:  0px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.turf-see-6 .postri{
+    margin-top: 20px;
+    padding-left: 170px;
+    width: 700px;
+}
+.turf-see-6 .postri h3{
+     font-weight: bold;
+}
+.turf-see-6 .postri p{
+    margin-top:  0px;
+    font-weight: 600;
+     font-size: 16px;
+}
+.turf-see-6 .turf-type{
+    text-align: right;
+    width: 700px;
+    float: right;
+}
+.turf-see-6 .turf-type h3{
+    color: #F2F3C9;
+    font-weight: bold;
+}
+.turf-see-6 .turf-type p{
+    color: #fff;
+    font-weight: bold;
+     font-size: 16px;
+}
+
+.turf-see-7{
+    width: 100%;
+    height: 100%;
+    background:  url('../images/generalseed/turf-seed-7-new.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 70px 60px;
+    margin: 0px;
+}
+.turf-see-7 h1{
+    font-size: 30px;
+    font-weight: bold;
+     color: #034915;
+}
+.turf-see-7 .center-image p{
+    color: #fff;
+    font-size: 18px;
+}
+.turf-see-7 .packages-last{
+    margin-top: 30px;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+.turf-see-7 .packages-last h3{
+     color: #F2F3C9;
+     font-weight: bold;
+}
+.turf-see-7 .packages-last p{
+     color: #FFF;
+     font-weight: bold;
+}
+.turf-see-2{
+    background: #015825;
+     padding: 50px;
+     margin: 0;
+}
+.turf-see-2 .turf-seed-inner{
+    background: #7DBC42;
+}
+.turf-see-2 .turf-seed-inner .lawnseed{
+    font-size: 26px;
+    font-weight: bold;
+    color: #E67816;
+}
+.turf-see-2 .turf-seed-inner .mixtures{
+    
+    font-size: 26px;
+    font-weight: bold;
+    color: #E67816;
+}
+.turf-see-2 .premium h4{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+.turf-see-2 .premium ul li{
+    font-weight: bold;
+    list-style: none;
+    font-size: 16px;
+}
+.turf-see-2 .turf-seed-bottom .premium ul li,.turf-see-2 .turf-seed-bottom .lastline{
+    color: #fff;
+}
+.turf-see-2 .premium ul li span{
+    border: 1px solid #da9257;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 16px;
+    width: 7px;
+}
+.turf-see-2 .lastline {
+    font-style: italic;
+}
+.margin-top-200{
+    margin-top: 200px;
+}
+.margin-top-100{
+     margin-top: 100px;
+}
+.margin-top-50{
+     margin-top: 50px;
+}
+.margin-top-25{
+     margin-top: 25px;
+}
+.turf-seed-bottom .premium h4{
+    color: #DA9257;
+}
+
+ .turf-see-3{
+    background: #015825;
+    padding: 50px;
+    margin: 0;
+}
+.turf-see-3 .turf-seed-inner{
+    background: #7DBC42;
+}
+.turf-see-3 .turf-seed-inner .lawnseed{
+    font-size: 26px;
+    font-weight: bold;
+    color: #E67816;
+}
+.turf-see-3 .turf-seed-inner .mixtures{
+
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+}
+.turf-see-3 .lawnseed h4{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 19px;
+    color: black;
+}
+.turf-see-3 .lawnseed ul li{
+    font-weight: bold;
+    list-style: none;
+    font-size: 16px;
+    color: black;
+}
+.turf-see-3 .lawnseed ul li span{
+    border: 1px solid #da9257;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 16px;
+    width: 7px;
+
+}
+.turf-see-3 .lastline {
+    font-style: italic;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+}
+.turf-see-3 .turf-seed-2-bottom h4{
+    color: #DA9257;
+}
+.turf-see-3 .turf-seed-2-bottom ul li{
+    color: #FFF;
+}
+.turf-see-3 .turf-seed-2-bottom .lastline{
+    color: #FFF;
+}
+.turf-see-4{
+    background: #015825;
+    padding: 50px;
+    margin: 0;
+}
+.turf-see-4 .turf-seed-inner{
+    background: #7DBC42;
+}
+.turf-see-4 .turf-seed-inner h1{
+    color:  #FEEAA7;
+    font-weight: bold;
+    font-size: 41px;
+}
+.turf-see-4 .turf-seed-inner h3{
+    color:  #FEEAA7;
+    font-weight: bold;
+   margin-bottom: 10px;
+}
+.turf-see-4 .lawnseed ul li{
+    font-weight: bold;
+    list-style: none;
+    font-size: 16px;
+    color: black;
+    color: #fff;
+}
+.turf-see-4 .lawnseed ul li span{
+    border: 1px solid #FEEAA7;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 16px;
+    width: 7px;
+}
+.turf-see-4 .lastline {
+    font-style: italic;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+.turf-see-4 .lawnseed h4{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 19px;
+    color:  #FEEAA7;
+}
+.turf-see-4 .bottom-left-image{
+    width: 100%;
+    height: 100%;
+    background:  url('../images/generalseed/turn-seed-4-new.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 70px 60px;
+    margin: 0px;
+    border: 2px solid #fff;
+}
+.turf-see-5{
+    background: #015825;
+    padding: 50px;
+    margin: 0;
+}
+.turf-see-5 .turf-seed-inner{
+    background: #7DBC42;
+}
+.turf-see-5 .turf-seed-inner h1{
+    color:  #015825;
+    font-weight: bold;
+    font-size: 41px;
+}
+
+.turf-see-5 .turf-seed-inner h3{
+    color:  #FEEAA7;
+    font-weight: bold;
+   margin-bottom: 10px;
+}
+.turf-see-5 .lawnseed ul li{
+    font-weight: bold;
+    list-style: none;
+    font-size: 16px;
+    color: black;
+    color: #fff;
+}
+.turf-see-5 .lawnseed ul li span{
+    border: 1px solid #FEEAA7;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 16px;
+    width: 7px;
+}
+.turf-see-5 .lastline {
+    font-style: italic;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+.turf-see-5 .lawnseed h4{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 19px;
+    color:  #FEEAA7;
+}
+.turf-see-5 .turf-seed-bottom{
+    width: 100%;
+    height: 100%;
+    background:  url('../images/generalseed/turn-seed-5-bottom-new.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 70px 60px;
+    margin: 0px;
+    border: 2px solid #fff;
+}
+.turf-see-5 .turf-seed-bottom h1{
+    color:  #FEEAA7;
+}
+/* cover crop two end */

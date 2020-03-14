@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    position: relativel;
+}
+
+.clear{
+    clear: both;
+}
+
+/*********slider**********/
+
+.swiper-pagination-bullet-active {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 2px solid #ffffff;
+  margin: 3px 5px 0 !important;
+  opacity: 1;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  display: inline-block;
+  margin: 5px 5px 0;
+  vertical-align: top;
+}
+.swiper-button-next, .swiper-button-prev {
+  display: none;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-container-v {
+    background: #eee;
+}
+.slider-main .swiper-container .swiper-slide img{
+    width: 100%;
+}
+
+/*********slider**********/
+
+
+.middle-con h1 {
+  color: #303030;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 20px 0 0;
+  text-align: center;
+}
+.down-link {
+  margin: 15px 0 0;
+  text-align: center;
+}
+.down-link span {
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: top;
+}
+.down-link span.blue-txt {
+  color: #52b5d9;
+}
+.down-link a {
+  display: inline-block;
+  margin: 0 0 0 5px;
+  vertical-align: top;
+}
+.down-link a img {
+  width: 20px;
+}
+
+.version-box {
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+.version-box .vertion-list {
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 1px -1px #cecece;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  vertical-align: top;
+  width: 250px;
+}
+.version-box .vertion-list .title {
+  background-image: url("../images/dot-bg.png");
+  background-size: 42px auto;
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 15px 5px;
+}
+.version-box .vertion-list .title span.version-name {
+  font-size: 20px;
+}
+.version-box .vertion-list .title span {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.version-box .vertion-list h2 {
+  color: #777777;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+.version-box .vertion-list ul {
+  margin: 0;
+  padding: 0;
+}
+.version-box .vertion-list ul li {
+  display: block;
+  list-style: outside none none;
+}
+.version-box .vertion-list ul li:first-child a {
+  border-top: 1px dotted #777777;
+}
+.version-box .vertion-list ul li a {
+  border-bottom: 1px dotted #777777;
+  color: #777777;
+  display: block;
+  font-size: 14px;
+  padding: 15px 0;
+  text-decoration: none;
+}
+.version-box .vertion-list .per-link {
+  background-image: url("../images/dot-bg.png");
+  background-size: 42px auto;
+  border-bottom: 3px solid #2486ab;
+  border-radius: 3px;
+  color: #ffffff;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px auto 0;
+  padding: 10px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 90%;
+}
+.version-box .note {
+  color: #777777;
+  font-size: 14px;
+  margin: 30px 0;
+}
+.footer {
+  background-image: url("../images/footer-bg.png");
+  background-size: auto 100%;
+  padding: 40px 0;
+  text-align: center;
+}
+.footer h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+.footer p {
+  color: #1998D7;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.footer > a {
+  background: #3babd6 none repeat scroll 0 0;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px -3px #000000;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 20px 0 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+

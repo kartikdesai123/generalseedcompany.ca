@@ -1,0 +1,62 @@
+.modal {
+    z-index: 99999999;
+}
+.page-loading{
+    z-index: 100000000;
+}
+/* here you can put your own css to customize and override the theme */
+.bootstrap-tagsinput .tag {
+    color: white;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding: 5px 3px;
+}
+
+/*.select2-container {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  vertical-align: middle;
+  z-index: 999999 !important;
+}*/
+
+.dropdown-menu{
+    z-index: 9999999;  
+}
+
+.page-header.navbar.navbar-fixed-top, .page-header.navbar.navbar-static-top {
+    z-index: 99999999;
+    /*z-index: 999999;*/
+}
+#toast-container{
+    z-index: 999999999;  
+}
+.select2-container.select2-container--open{
+    z-index: 2147483647;
+}
+
+.page-sidebar .page-sidebar-menu > li.active.open > a, .page-sidebar .page-sidebar-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a{
+  background: #2fc0f0 none repeat scroll 0 0;
+}
+.page-sidebar .page-sidebar-menu > li.active.open > a:hover, .page-sidebar .page-sidebar-menu > li.active > a:hover, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a:hover, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a:hover{
+  background: #2fc0f0 none repeat scroll 0 0;
+}
+.page-sidebar .page-sidebar-menu > li.active.open > a, .page-sidebar .page-sidebar-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a:focus{
+  background: #2fc0f0 none repeat scroll 0 0;
+}
+.page-header.navbar .page-logo > a{
+    height: 45px
+}
+.page-header.navbar .close-manu-logo {
+  float: left;
+  display: none
+}
+.page-sidebar-closed .page-header.navbar .close-manu-logo {
+  display: block
+}
+.page-header.navbar .close-manu-logo > a {
+  display: block;
+  height: 45px;
+}
