@@ -282,13 +282,13 @@ header .navbar a.navbar-brand{
     }
 
     #main-menu.home-nav.navbar-default .navbar-right{
-            float: none !important;
-            text-align: center;
+        float: none !important;
+        text-align: center;
     }
 
     #main-menu.home-nav.navbar-default .navbar-right .navbar-nav{
-            float: none !important;
-            display: inline-block;
+        float: none !important;
+        display: inline-block;
     }
 
     #main-menu.navbar-default .navbar-nav > li.active > a {
@@ -628,7 +628,10 @@ footer.footer a.btn{
 .content-category .content-main .content-intro{
     margin-bottom: 40px;
 }
-
+li span {
+    position: relative;
+    left: -10px;
+}
 .content-category .content-main h3.title-with-border{
     font-size: 24px;
     font-weight: 600;
@@ -639,6 +642,16 @@ footer.footer a.btn{
     text-transform: uppercase;
     padding-bottom: 10px;
     border-bottom: 3px solid #552768;
+}
+
+.content-category .content-main h3.title-with-border1{
+    font-size: 18px;
+    font-weight: 600;
+    color: #c4be25;
+    text-align: left;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
 }
 
 .content-category .content-main .available-list-category .available-list li a{
@@ -1297,7 +1310,7 @@ ul.list-table li .qa-value{
 }
 .sliagecorn .inner_tr tr{
     border-bottom:5px solid #ffffff;
-    
+
 }
 .sliagecorn span
 {
@@ -1312,9 +1325,9 @@ ul.list-table li .qa-value{
 }
 .sliagecorn td span{
     padding: 5px;
-    
+
 }
- .sliagecorn tr{
+.sliagecorn tr{
     border-bottom:5px solid #ffffff;
 }
 .sliagecorn ul.list-value li{
