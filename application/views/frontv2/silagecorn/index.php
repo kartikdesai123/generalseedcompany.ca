@@ -21,9 +21,9 @@
                     <table style="width: 100%;">
                         <thead>
                             <tr>
-                                <td style="font-weight: bold;font-size: 20px;color: darkgreen"><span style="border-left: 6px solid #ccccff;height: 4px;"></span>&nbsp;<span style="border-left: 6px solid #ccccff;height: 4px;"></span>&nbsp;<span style="border-left: 2px solid #ccccff;height: 4px;"></span>&nbsp;Ideal Silage Hybrid </td>
-                                <td style="font-weight: bold;font-size: 18px;color: darkgreen"> Characteristics </td>
-                                <td style="font-weight: bold;font-size: 13px;color: darkgreen">  Performance Data </td>
+                                <td style="font-weight: bold;font-size: 20px;color: darkgreen;"><span style="border-left: 6px solid #ccccff;height: 4px;"></span>&nbsp;<span style="border-left: 6px solid #ccccff;height: 4px;"></span>&nbsp;<span style="border-left: 2px solid #ccccff;height: 4px;"></span>&nbsp;Ideal Silage Hybrid </td>
+                                <td style="font-weight: bold;font-size: 20px;color: darkgreen;padding:20px 30px 20px 40px;"> Characteristics </td>
+                                <td style="font-weight: bold;font-size: 20px;color: darkgreen; white-space: nowrap;">  Performance Data </td>
                             </tr>
                         </thead>
                         <tbody>
@@ -31,7 +31,7 @@
                                 <td style="padding: 10px"> 
                                     <div class="row">
                                         <div class="col-md-7">
-                                            <span style="color:#004A1B;font-weight: 700;font-size: 13px">GSL 86<br>
+                                            <span style="color:#004A1B;font-weight: 700;font-size: 15px;white-space: nowrap;">GSL 86<br>
                                                 GSL 86 ORGANIC<br>
                                                 GSL 86 RR<br>
                                                 2200-2700 HU<br>
@@ -44,7 +44,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td style="padding: 20px"> 
+                                <td style="padding: 20px 30px 20px 50px;"> 
                                     <ul class="bulletstyle" style="color: black; font-size: 13px">
                                         <li >New Leafy™ Floury Variety</li>
                                         <li > Very digestable starch</li>
@@ -99,7 +99,7 @@
                                 <td style="padding: 10px"> 
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <span style="color:#004A1B;font-weight: 700;font-size:13px">
+                                            <span style="color:#004A1B;font-weight: 700;font-size:15px;white-space: nowrap;">
                                                 GSL 87 SMX<br>
                                                 2300-2750 HU<br>
                                             </span>
@@ -109,7 +109,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td style="padding: 20px"> 
+                                <td style="padding: 20px 30px 20px 50px;"> 
                                     <ul class="bulletstyle" style="color: black; font-size: 13px">
                                         <li >New SmarStax Leafy hybrid</li>
                                         <li >Early maturity</li>
@@ -164,7 +164,7 @@
                                 <td style="padding: 10px"> 
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <span style="color:#004A1B;font-weight: 700;font-size:13px">
+                                            <span style="color:#004A1B;font-weight: 700;font-size:15px;white-space: nowrap;">
                                                 GSL 93 SMX<br>
                                                 2650-2950 HU<br>
                                             </span>
@@ -174,7 +174,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td style="padding: 20px"> 
+                                <td style="padding: 20px 30px 20px 50px"> 
                                     <ul class="bulletstyle" style="color: black; font-size: 13px">
                                         <li>Excellent choice of Leafy™ silage variety for corn on corn fields.</li>
                                         <li>Strong emergence and spring vigour.</li>
@@ -229,7 +229,7 @@
                                 <td style="padding: 10px"> 
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <span style="color:#004A1B;font-weight: 700;font-size:13px">
+                                            <span style="color:#004A1B;font-weight: 700;font-size:15px;white-space: nowrap;">
                                                 GSL 94 <br>
                                                 GSL 94 Organic <br>
                                                 GSL 94 RR<br>
@@ -244,7 +244,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td style="padding: 20px"> 
+                                <td style="padding: 20px 30px 20px 50px"> 
                                     <ul class="bulletstyle" style="color: black; font-size: 13px">
                                         <li>New Leafy™ Floury Hybrid.</li>
                                         <li>7 HR ruminal starch digestion testing shows high percentage of digestions.</li>
@@ -299,7 +299,7 @@
                                 <td style="padding: 10px"> 
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <span style="color:#004A1B;font-weight: 700;font-size:13px">
+                                            <span style="color:#004A1B;font-weight: 700;font-size:15px;white-space: nowrap;">
                                                 GSL 97<br>
                                                 GSL 97 RR<br>
                                                 2800-3200 HU<br>
@@ -312,7 +312,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td style="padding: 20px"> 
+                                <td style="padding: 20px 30px 20px 50px"> 
                                     <ul class="bulletstyle" style="color: black; font-size: 13px">
                                         <li>Large robust Leafy™ plants.</li>
                                         <li>Produces very high tonnage of quality corn silage.</li>
@@ -367,7 +367,7 @@
                                 <td style="padding: 10px"> 
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <span style="color:#004A1B;font-weight: 700;font-size:13px">
+                                            <span style="color:#004A1B;font-weight: 700;font-size:15px;white-space: nowrap;">
                                                 GSL 101<br>
                                                 GSL 101 RR<br>
                                                 2800-3200 HU<br>
@@ -379,7 +379,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td style="padding: 20px"> 
+                                <td style="padding: 20px 30px 20px 50px"> 
                                     <ul class="bulletstyle" style="color: black; font-size: 13px">
                                         <li>Leafy™ Floury Hybrid.</li>
                                         <li>7 HR ruminal starch digestion testing shows high  percentage of digestions.</li>
@@ -434,7 +434,7 @@
                                 <td style="padding: 10px"> 
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <span style="color:#004A1B;font-weight: 700;font-size:13px">
+                                            <span style="color:#004A1B;font-weight: 700;font-size:15px;white-space: nowrap;">
                                                 GSL 102 SMX<br>
                                                 2800-3200 HU <br>
                                             </span>
@@ -444,7 +444,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td style="padding: 20px"> 
+                                <td style="padding: 20px 30px 20px 50px"> 
                                     <ul class="bulletstyle" style="color: black; font-size: 13px">
                                         <li> Excellent choice of Leafy™ silage variety for corn  on corn fields</li>
                                         <li>Strong emergence and spring vigour</li>
@@ -1024,55 +1024,58 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-xs-12">
+                        <div class="col-sm-12 col-xs-12" >
                             <div class="qa-list-category">
                                 <h3 class="title-with-border1"></h3>
                             </div>
                         </div>
-                        <div class="row col-sm-12 col-xs-12">
-                            <div class="col-md-7">
-                                <span style="color: darkgreen;font-weight: bold;font-size: 15px"><span style="border-left: 6px solid #ccccff;height: 7px;"></span>&nbsp;<span style="border-left: 6px solid #ccccff;height: 7px;"></span>&nbsp;<span style="border-left: 2px solid #ccccff;height: 7px;"></span>&nbsp;MODES OF ACTION TO CONTROL VARIOUS INSECT PESTS</span>
+                        <div class="row col-sm-12 col-xs-12" style="margin-top: 10px;">
+                            <div class="col-md-6"  style="padding-right: 0px;">
+                                <span style="color: darkgreen;font-weight: bold;font-size: 13px"><span style="border-left: 6px solid #ccccff;height: 7px;"></span>&nbsp;<span style="border-left: 6px solid #ccccff;height: 7px;"></span>&nbsp;<span style="border-left: 2px solid #ccccff;height: 7px;"></span>&nbsp;MODES OF ACTION TO CONTROL VARIOUS INSECT PESTS</span>
                                 <div class="table-responsive">          
-                                    <table class="table undertable" style='border: 1px solid #ccccff'>
+                                    <table class="table undertable" style='border: 1px solid #ccccff;margin-top: 10px; margin-bottom: 3px;'>
                                         <thead>
                                             <tr>
                                                 <th colspan="4" style="background-color: green;color: white;">Insects SmartStax RIB*</th>
                                             </tr>
                                         </thead>
                                         <tbody style="color: black;font-size: 11px;font-weight: bold">
-                                            <tr>
+                                            <tr><i class="fas fa-triangle"></i>
                                                 <td><i class="fa fa-circle" style="font-size:8px"></i>&nbsp;<span class="underline">Black Cutwormhello</span></td>
-                                                <td><span class="textalign"><i class="fa fa-square" style="font-size:8px;color: #ccccff"></i></span></td>
+                                                <td><span class="textalign"><i class="fas fa-triangle"></i><i class="fa fa-caret-up" style="font-size:15px;color: #ccccff"></i></span></td>
                                                 <td><i class="fa fa-circle" style="font-size:8px"></i>&nbsp;<span class="underline">Western Bean Cutworm</span></td>
-                                                <td><span class="textalign"><i class="fa fa-square" style="font-size:8px;color: #ccccff"></i></span></td>
+                                                <td><span class="textalign"><i class="fa fa-caret-up" style="font-size:15px;color: #ccccff"></i></span></td>
                                             </tr>
                                             <tr>
                                                 <td><i class="fa fa-circle" style="font-size:8px"></i>&nbsp;<span class="underline">European Corn Borer</span></td>
-                                                <td><span class="textalign"><i class="fa fa-square" style="font-size:8px;color: #ccccff"></i>&nbsp;<i class="fa fa-square" style="font-size:8px;color: #ccccff"></i>&nbsp;<i class="fa fa-square" style="font-size:8px;color: #ccccff"></i></span></td>
+                                                <td><span class="textalign"><i class="fa fa-caret-up" style="font-size:16px;color: #ccccff"></i>&nbsp;<i class="fa fa-caret-up" style="font-size:16px;color: #ccccff"></i>&nbsp;<i class="fa fa-caret-up" style="font-size:16px;color: #ccccff"></i></span></td>
                                                 <td><i class="fa fa-circle" style="font-size:8px"></i>&nbsp;<span class="underline">Northern Corn Rootworm</span></td>
-                                                <td><span class="textalign"><i class="fa fa-square" style="font-size:8px;color: #ccccff"></i>&nbsp;<i class="fa fa-square" style="font-size:8px;color: #ccccff"></i>&nbsp;<i class="fa fa-square" style="font-size:8px;color: #ccccff"></i></span></td>
+                                                <td><span class="textalign"><i class="fa fa-caret-up" style="font-size:16px;color: #ccccff"></i>&nbsp;<i class="fa fa-caret-up" style="font-size:16px;color: #ccccff"></i>&nbsp;<i class="fa fa-caret-up" style="font-size:16px;color: #ccccff"></i></span></td>
                                             </tr>
                                             <tr>
                                                 <td><i class="fa fa-circle" style="font-size:8px"></i>&nbsp;<span class="underline">Fall Armyworm</span></td>
-                                                <td><span class="textalign"><i class="fa fa-square" style="font-size:8px;color: #ccccff"></i>&nbsp;<i class="fa fa-square" style="font-size:8px;color: #ccccff"></i>&nbsp;<i class="fa fa-square" style="font-size:8px;color: #ccccff"></i></span></td>
+                                                <td><span class="textalign"><i class="fa fa-caret-up" style="font-size:16px;color: #ccccff"></i>&nbsp;<i class="fa fa-caret-up" style="font-size:16px;color: #ccccff"></i>&nbsp;<i class="fa fa-caret-up" style="font-size:16px;color: #ccccff"></i></span></td>
                                                 <td><i class="fa fa-circle" style="font-size:8px"></i>&nbsp;<span class="underline">Western Corn Rootworm</span></td>
-                                                <td><span class="textalign"><i class="fa fa-square" style="font-size:8px;color: #ccccff"></i>&nbsp;<i class="fa fa-square" style="font-size:8px;color: #ccccff"></i>&nbsp;<i class="fa fa-square" style="font-size:8px;color: #ccccff"></i></span></td>
+                                                <td><span class="textalign"><i class="fa fa-caret-up" style="font-size:16px;color: #ccccff"></i>&nbsp;<i class="fa fa-caret-up" style="font-size:16px;color: #ccccff"></i>&nbsp;<i class="fa fa-caret-up" style="font-size:16px;color: #ccccff"></i></span></td>
                                             </tr>
                                             <tr>
                                                 <td><i class="fa fa-circle" style="font-size:8px"></i>&nbsp;<span class="underline">Corn Earworm</span></td>
-                                                <td><span class="textalign"><i class="fa fa-square" style="font-size:8px;color: #ccccff"></i>&nbsp;<i class="fa fa-square" style="font-size:8px;color: #ccccff"></i>&nbsp;<i class="fa fa-square" style="font-size:8px;color: #ccccff"></i></span></td>
+                                                <td><span class="textalign"><i class="fa fa-caret-up" style="font-size:16px;color: #ccccff"></i>&nbsp;<i class="fa fa-caret-up" style="font-size:16px;color: #ccccff"></i>&nbsp;<i class="fa fa-caret-up" style="font-size:16px;color: #ccccff"></i></span></td>
                                                 <td colspan="2"><i class="fa fa-circle" style="font-size:8px"></i>&nbsp;<span class="underline">Required Structured Refuge:5%(RIB)</span></td>
                                             </tr>
+                                           
                                         </tbody>
                                     </table>
+                                    <p style="font-size: 11px;font-style: italic"><strong style="color:black">*Treats above and below ground insect pests</strong></p>
                                 </div>
-                                <p style="font-size: 10px;font-weight: inherit">*Treats above and below ground insect pests</p>
+                              
                             </div>
-                            <div class="col-md-5">
-                                <p style="font-size: 11px;text-align: justify"><strong style="color:black">To help preserve the benefits of our trait technology, an Insect Resistance Management (IRM) plan must be part of every farmer’s production strategy.</p>
-                                <p style="font-size: 11px;text-align: justify"><strong style="color:black">Farmers who purchase corn products that are not designated as RIB Complete® required to plant a refuge that is appropriate for that product.</p>
-                                <p style="font-size: 11px;text-align: justify"><strong style="color:black">As part of the IRM plan for RIB Complete corn, experts recommend that growers incorporate crop rotations (out of corn), use of pyramided traits for below ground pests and, when appropriate, use of insecticides to minimize selection of resistant populations. <span style="font-weight: bold">Farmers should monitor their RIB Complete corn fields for targeted insect pests</span> and contact their local Monsanto representative, retailer, or Monsanto’s Technical Support line at 1.800.667.4944 if they observe any unusual performance problems.
-                                        <img style="float: right;" src="<?= base_url(); ?>public/frontv2/images/IRM.png" alt="Image" width="100">
+                            <div class="col-md-6">
+                                <p style="font-size: 11px;text-align: justify;margin-bottom: 0.5em;"><strong style="color:black">To help preserve the benefits of our trait technology, an Insect Resistance Management (IRM) plan must be part of every farmer’s production strategy.</p>
+                                <p style="font-size: 11px;text-align: justify;margin-bottom: 0.5em;"><strong style="color:black">Farmers who purchase corn products that are not designated as RIB Complete® required to plant a refuge that is appropriate for that product.</p>
+                                <p style="font-size: 11px;text-align: justify;margin-bottom: 0.5em;">     
+                                    <strong style="color:black">As part of the IRM plan for RIB Complete corn, experts recommend that growers incorporate crop rotations (out of corn), use of pyramided traits for below ground pests and, when appropriate, use of insecticides to minimize selection of resistant populations. <span style="font-weight: bold"> Farmers should monitor their RIB Complete corn fields for targeted insect pests</span> <img style="float: right;margin-left: 10px;" src="<?= base_url(); ?>public/frontv2/images/IRM Logo- ENG.jpg" alt="Image" width="100"> and contact their local Monsanto representative, retailer, or Monsanto’s Technical Support line at 1.800.667.4944 if they observe any unusual performance problems.</strong>
+                                        <!--<img style="float: right;" src="<?= base_url(); ?>public/frontv2/images/IRM Logo- ENG.jpg" alt="Image" width="100">-->
                                 </p>
                             </div>
                         </div>
