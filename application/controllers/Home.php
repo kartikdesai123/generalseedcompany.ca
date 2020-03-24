@@ -9,6 +9,7 @@ class Home extends Front_Controller {
 
     function index() {
        $data['page'] = 'frontv2/home/home';
+       $data['title'] = 'Home';
         $data['active'] = 'home';
         $data['bodypagetitle'] = FALSE;
         $data['slider'] = TRUE;
@@ -33,6 +34,7 @@ class Home extends Front_Controller {
     }
     function indexOld() {
         $data['page'] = 'front/home/home';
+        $data['title'] = 'Home';
         $data['active'] = 'home';
         $data['bodypagetitle'] = FALSE;
         $data['slider'] = TRUE;

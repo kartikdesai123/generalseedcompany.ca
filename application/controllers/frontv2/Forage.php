@@ -8,6 +8,7 @@ class Forage extends Front_Controller {
 
     function legumesMain() {
         $data['page'] = 'frontv2/forage/legumes/homepage';
+        $data['title'] = "Legumes";
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
         
@@ -16,12 +17,14 @@ class Forage extends Front_Controller {
 
     function legumes() {
         $data['page'] = 'frontv2/forage/legumes/legumes';
+        $data['title'] = "Leagumes";
         $data['forage'] = 'active';
         $this->load->view(FRONT_LAYOUT_V2, $data);
     }
 
     function alfalfa() {
         $data['page'] = 'frontv2/forage/legumes/alfalfa';
+        $data['title'] = "Alfalfa";
         $data['alfalfa'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -31,6 +34,7 @@ class Forage extends Front_Controller {
 
     function birdsfoottrefoil() {
         $data['page'] = 'frontv2/forage/legumes/birdsfoottrefoil';
+        $data['title'] = "Birdsfoot Trefoil";
         $data['birdsfoottrefoil'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -40,6 +44,7 @@ class Forage extends Front_Controller {
 
     function sainfoin() {
         $data['page'] = 'frontv2/forage/legumes/sainfoin';
+        $data['title'] = "Sainfoin";
         $data['sainfoin'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -49,6 +54,7 @@ class Forage extends Front_Controller {
 
     function whiteclover() {
         $data['page'] = 'frontv2/forage/legumes/whiteclover';
+        $data['title'] = "White Clover";
         $data['whiteclover'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -58,6 +64,7 @@ class Forage extends Front_Controller {
 
     function ladinoclover() {
         $data['page'] = 'frontv2/forage/legumes/ladinoclover';
+        $data['title'] = "Ladino Clover";
         $data['ladinoclover'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -67,6 +74,7 @@ class Forage extends Front_Controller {
 
     function alsikeclover() {
         $data['page'] = 'frontv2/forage/legumes/alsikeclover';
+        $data['title'] = "Alsike Clover";
         $data['alsikeclover'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -76,6 +84,7 @@ class Forage extends Front_Controller {
 
     function doublecutredclover() {
         $data['page'] = 'frontv2/forage/legumes/doublecutredclover';
+        $data['title'] = "Double Cut Red Clover";
         $data['doublecutredclover'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -85,6 +94,7 @@ class Forage extends Front_Controller {
 
     function singlecutredclover() {
         $data['page'] = 'frontv2/forage/legumes/singlecutredclover';
+        $data['title'] = "Single Cut Red Clover";
         $data['singlecutredclover'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -94,6 +104,7 @@ class Forage extends Front_Controller {
 
     function yellowblossomsweetclover() {
         $data['page'] = 'frontv2/forage/legumes/yellowblossomsweetclover';
+        $data['title'] = "Yellow Blossom Sweet Clover";
         $data['yellowblossomsweetclover'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -103,6 +114,7 @@ class Forage extends Front_Controller {
 
     function grassesMain() {
         $data['page'] = 'frontv2/forage/grasses/homepage';
+        $data['title'] = "Grasses";
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
         
@@ -111,6 +123,7 @@ class Forage extends Front_Controller {
     
     function timothy() {
         $data['page'] = 'frontv2/forage/grasses/timothy';
+        $data['title'] = "Timothy";
         $data['timothy'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -120,6 +133,7 @@ class Forage extends Front_Controller {
 
     function reedcanarygrass() {
         $data['page'] = 'frontv2/forage/grasses/reedcanarygrass';
+        $data['title'] = "Reed Canary Grass";
         $data['reedcanarygrass'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -129,6 +143,7 @@ class Forage extends Front_Controller {
 
     function orchardgrass() {
         $data['page'] = 'frontv2/forage/grasses/orchardgrass';
+        $data['title'] = "Orchard Grass";
         $data['orchardgrass'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -138,6 +153,7 @@ class Forage extends Front_Controller {
 
     function tallfescue() {
         $data['page'] = 'frontv2/forage/grasses/tallfescue';
+        $data['title'] = "Tall Fescue";
         $data['tallfescue'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -147,6 +163,7 @@ class Forage extends Front_Controller {
 
     function perennialryegrass() {
         $data['page'] = 'frontv2/forage/grasses/perennialryegrass';
+        $data['title'] = "Perennial Ryegrass";
         $data['perennialryegrass'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -156,6 +173,7 @@ class Forage extends Front_Controller {
 
     function italianannualryegrass() {
         $data['page'] = 'frontv2/forage/grasses/italianannualryegrass';
+        $data['title'] = "Italian Annual Ryegrass";
         $data['italianannualryegrass'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -165,6 +183,7 @@ class Forage extends Front_Controller {
 
     function festulolium() {
         $data['page'] = 'frontv2/forage/grasses/festulolium';
+        $data['title'] = "Festulolium";
         $data['festulolium'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -174,6 +193,7 @@ class Forage extends Front_Controller {
 
     function smoothbromegrass() {
         $data['page'] = 'frontv2/forage/grasses/smoothbromegrass';
+        $data['title'] = "Smooth Bromegrass";
         $data['smoothbromegrass'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -183,6 +203,7 @@ class Forage extends Front_Controller {
 
     function meadowbromegrass() {
         $data['page'] = 'frontv2/forage/grasses/meadowbromegrass';
+        $data['title'] = "Meadow Bromgrass";
         $data['meadowbromegrass'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -192,6 +213,7 @@ class Forage extends Front_Controller {
     
     function annualsMain() {
         $data['page'] = 'frontv2/forage/annuals/homepage';
+        $data['title'] = "Annuals";
         $data['annuals'] = 'open active-tree';
         $data['forage'] = 'active';
         
@@ -201,6 +223,7 @@ class Forage extends Front_Controller {
     function sorghumSudangrass() {
 
         $data['page'] = 'frontv2/forage/annuals/sorghumsudangrass';
+        $data['title'] = "Sorghum Sudangrass";
         $data['sorghumsudangrass'] = 'active-link';
         $data['annuals'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -210,6 +233,7 @@ class Forage extends Front_Controller {
 
     function pearlMillet() {
         $data['page'] = 'frontv2/forage/annuals/pearlmillet';
+        $data['title'] = "Pearl Millet";
         $data['pearlmillet'] = 'active-link';
         $data['annuals'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -219,6 +243,7 @@ class Forage extends Front_Controller {
 
     function teff() {
         $data['page'] = 'frontv2/forage/annuals/teff';
+        $data['title'] = "Teff";
         $data['teff'] = 'active-link';
         $data['annuals'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -227,6 +252,7 @@ class Forage extends Front_Controller {
 
     function peaMixtures() {
         $data['page'] = 'frontv2/forage/annuals/peamixtures';
+        $data['title'] = "Pea Mixtures";
         $data['peamixtures'] = 'active-link';
         $data['annuals'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -235,6 +261,7 @@ class Forage extends Front_Controller {
 
     function organic() {
         $data['page'] = 'frontv2/forage/organic/organic';
+        $data['title'] = "Organic";
         $data['organicmain'] = 'active-link';
         $data['organic'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -243,6 +270,7 @@ class Forage extends Front_Controller {
 
     function pastureMain() {
         $data['page'] = 'frontv2/forage/pasture/homepage';
+        $data['title'] = "Pasture";
         $data['pasturemain'] = 'active-link';
         $data['pasture'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -251,6 +279,7 @@ class Forage extends Front_Controller {
 
     function cattlePastureHighland() {
         $data['page'] = 'frontv2/forage/pasture/cattlepasturehighland';
+        $data['title'] = "Highland Cattle Pasture";
         $data['cattlepasturehighland'] = 'active-link';
         $data['pasture'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -259,6 +288,7 @@ class Forage extends Front_Controller {
 
     function lowlandCattlePasture() {
         $data['page'] = 'frontv2/forage/pasture/lowlandcattlepasture';
+        $data['title'] = "Lowland Cattle Pasture";
         $data['lowlandcattlepasture'] = 'active-link';
         $data['pasture'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -267,6 +297,7 @@ class Forage extends Front_Controller {
 
     function sheepGoatPasture() {
         $data['page'] = 'frontv2/forage/pasture/sheepgoatpasture';
+        $data['title'] = "Sheep/Goat  Pasture Mixture";
         $data['sheepgoatpasture'] = 'active-link';
         $data['pasture'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -275,6 +306,7 @@ class Forage extends Front_Controller {
 
     function horseOrPaddockMixture() {
         $data['page'] = 'frontv2/forage/pasture/horseorpaddockmixture';
+        $data['title'] = "Horse Or Paddock Mixture";
         $data['horseorpaddockmixture'] = 'active-link';
         $data['pasture'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -283,6 +315,7 @@ class Forage extends Front_Controller {
 
     function pastureRenevatorMixture() {
         $data['page'] = 'frontv2/forage/pasture/pasturerenevatormixture';
+        $data['title'] = "Pasture Renevator Mixture";
         $data['pasturerenevatormixture'] = 'active-link';
         $data['pasture'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -291,6 +324,7 @@ class Forage extends Front_Controller {
     
     function alfalfaGrassMain() {
         $data['page'] = 'frontv2/forage/alfalfagrass/homepage';
+        $data['title'] = "Alfalfa Grass";
         $data['alfalfagrass'] = 'open active-tree';
         $data['forage'] = 'active';
         $this->load->view(FRONT_LAYOUT_V2, $data);
@@ -298,6 +332,7 @@ class Forage extends Front_Controller {
 
     function alfalfaGrasslandMixture() {
         $data['page'] = 'frontv2/forage/alfalfagrass/alfalfagrasslandmixture';
+        $data['title'] = "Alfalfa Grassland Mixture";
         $data['alfalfagrasslandmixture'] = 'active-link';
         $data['alfalfagrass'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -306,6 +341,7 @@ class Forage extends Front_Controller {
 
     function alfalfaTimothyGrasslandMixture() {
         $data['page'] = 'frontv2/forage/alfalfagrass/alfalfatimothygrasslandmixture';
+        $data['title'] = "Alfalfa/Timothy Grassland Mixture";
         $data['alfalfatimothygrasslandmixture'] = 'active-link';
         $data['alfalfagrass'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -314,6 +350,7 @@ class Forage extends Front_Controller {
 
     function alfalfaGrassMixture() {
         $data['page'] = 'frontv2/forage/alfalfagrass/alfalfagrassmixture';
+        $data['title'] = "Alfalfa Grass Mixture";
         $data['alfalfagrassmixture'] = 'active-link';
         $data['alfalfagrass'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -322,6 +359,7 @@ class Forage extends Front_Controller {
 
     function alfalfaGrassMixtureWithBrome() {
         $data['page'] = 'frontv2/forage/alfalfagrass/alfalfagrassmixturewithbrome';
+        $data['title'] = "Alfalfa Grass Mixture With Brome";
         $data['alfalfagrassmixturewithbrome'] = 'active-link';
         $data['alfalfagrass'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -330,6 +368,7 @@ class Forage extends Front_Controller {
 
     function alfalfaWithAggressiveGrassMixture() {
         $data['page'] = 'frontv2/forage/alfalfagrass/alfalfawithaggressivegrassmixture';
+        $data['title'] = "Alfalfa With Aggressive Grass Mixture";
         $data['alfalfawithaggressivegrassmixture'] = 'active-link';
         $data['alfalfagrass'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -338,6 +377,7 @@ class Forage extends Front_Controller {
 
     function dryCowHayMixture() {
         $data['page'] = 'frontv2/forage/alfalfagrass/drycowhaymixture';
+        $data['title'] = "Dry Cow Hay Mixture";
         $data['drycowhaymixture'] = 'active-link';
         $data['alfalfagrass'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -346,6 +386,7 @@ class Forage extends Front_Controller {
 
     function alternativeHayMain() {
         $data['page'] = 'frontv2/forage/alternativehay/homepage';
+        $data['title'] = "Alternative Hay";
         $data['alternativehay'] = 'open active-tree';
         $data['forage'] = 'active';
         $this->load->view(FRONT_LAYOUT_V2, $data);
@@ -353,6 +394,7 @@ class Forage extends Front_Controller {
     
     function hayPastureMixture() {
         $data['page'] = 'frontv2/forage/alternativehay/haypasturemixture';
+        $data['title'] = "Hay Pasture Mixture";
         $data['haypasturemixture'] = 'active-link';
         $data['alternativehay'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -361,6 +403,7 @@ class Forage extends Front_Controller {
 
     function mixedlandMixture() {
         $data['page'] = 'frontv2/forage/alternativehay/mixedlandmixture';
+        $data['title'] = "Mixedland Mixture";
         $data['mixedlandmixture'] = 'active-link';
         $data['alternativehay'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -369,6 +412,7 @@ class Forage extends Front_Controller {
 
     function lowlandMixture() {
         $data['page'] = 'frontv2/forage/alternativehay/lowlandmixture';
+        $data['title'] = "Lowland Mixture";
         $data['lowlandmixture'] = 'active-link';
         $data['alternativehay'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -377,6 +421,7 @@ class Forage extends Front_Controller {
 
     function rollingFieldMixture() {
         $data['page'] = 'frontv2/forage/alternativehay/rollingfieldmixture';
+        $data['title'] = "Rolling Field Mixture";
         $data['rollingfieldmixture'] = 'active-link';
         $data['alternativehay'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -385,6 +430,7 @@ class Forage extends Front_Controller {
 
     function alfalfaTimothy() {
         $data['page'] = 'frontv2/forage/alternativehay/alfalfatimothy';
+        $data['title'] = "Alfalfa-Timothy";
         $data['alfalfatimothy'] = 'open active-tree';
         $data['forage'] = 'active';
         $this->load->view(FRONT_LAYOUT_V2, $data);
@@ -392,6 +438,7 @@ class Forage extends Front_Controller {
 
     function ouebecMaritime() {
         $data['page'] = 'frontv2/forage/alternativehay/ouebecmaritime';
+        $data['title'] = "Quebec & Maritime";
         $data['ouebecmaritime'] = 'open active-tree';
         $data['forage'] = 'active';
         $this->load->view(FRONT_LAYOUT_V2, $data);
