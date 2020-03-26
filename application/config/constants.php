@@ -190,7 +190,7 @@ define('ADMIN_LAYOUT_LOGIN', 'admin/layout_login');
 
 define('DISPLAY_LOGO', 'public/front/images/generalseed/logo.png');
 
-
+define('DESCRIPTION', json_encode(array('article', 'article1')));
 
 // if (APP_ENVIRONMENT == 'prod') {
 

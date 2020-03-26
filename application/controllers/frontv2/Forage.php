@@ -9,6 +9,7 @@ class Forage extends Front_Controller {
     function legumesMain() {
         $data['page'] = 'frontv2/forage/legumes/homepage';
         $data['title'] = "Legumes";
+        $variable = json_decode(DESCRIPTION);
         $data['description'] = "Description";
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
