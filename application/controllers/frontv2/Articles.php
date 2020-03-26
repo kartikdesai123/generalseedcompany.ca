@@ -14,6 +14,7 @@ class Articles extends Front_Controller {
     function articlesList() {
        $data['page'] = 'frontv2/articles/articlesList';
        $data['title'] = "Articles";
+       $data['description'] = "Description";
        $data['homepage'] = 'open active-tree';
        $data['articles'] = 'active';
         

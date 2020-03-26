@@ -10,6 +10,7 @@ class Silagecorn extends Front_Controller {
         
         $data['page'] = 'frontv2/silagecorn/index';
         $data['title'] = "Silage Corn";
+        $data['description'] = "Description";
         $data['silage'] = 'active';
        
         $this->load->view(FRONT_LAYOUT_V2, $data);

@@ -31,6 +31,7 @@ class ContactUs extends Front_Controller {
        }
        $data['page'] = 'frontv2/contactus/generalInquiry';
        $data['title'] = "Contact Us";
+       $data['description'] = "Description";
        $data['generalInquiry'] = 'open active-tree';
        $data['contactus'] = 'active';
 
@@ -57,6 +58,7 @@ class ContactUs extends Front_Controller {
     function retailInquiry() {
        $data['page'] = 'frontv2/contactus/retailInquiry';
        $data['title'] = "Retail Inquiry";
+       $data['description'] = "Description";
        $data['retailInquiry'] = 'open active-tree';
        $data['contactus'] = 'active';
        $this->load->view(FRONT_LAYOUT_V2, $data);
@@ -65,6 +67,7 @@ class ContactUs extends Front_Controller {
     function wholesaleInquiry() {
        $data['page'] = 'frontv2/contactus/wholesaleInquiry';
        $data['title'] = "Wholesale Inquiry";
+       $data['description'] = "Description";
        $data['wholesaleInquiry'] = 'open active-tree';
        $data['contactus'] = 'active';
        $data['vanue_artical'] = $this->vanueAddress('wholsale');
@@ -87,6 +90,7 @@ class ContactUs extends Front_Controller {
     function wholesaleOrder() {
        $data['page'] = 'frontv2/contactus/wholesaleOrder';
        $data['title'] = "Wholesale Order";
+       $data['description'] = "Description";
        $data['wholesaleOrder'] = 'open active-tree';
        $data['contactus'] = 'active';
        $this->load->view(FRONT_LAYOUT_V2, $data);

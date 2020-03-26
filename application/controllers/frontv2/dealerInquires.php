@@ -14,6 +14,7 @@ class DealerInquires extends Front_Controller {
     function dealerInquiry() {
         $data['page'] = 'frontv2/dealerInquires/homepage';
         $data['title'] = 'Dealer Inquiry';
+        $data['description'] = "Description";
         $data['homepage'] = 'open active-tree';
         $data['dealerInquiry'] = 'active';
 

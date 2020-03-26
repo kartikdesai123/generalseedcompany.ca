@@ -10,6 +10,7 @@ class Home extends Front_Controller {
     function index() {
        $data['page'] = 'frontv2/home/home';
        $data['title'] = 'Home';
+       $data['description'] = "Description";
         $data['active'] = 'home';
         $data['bodypagetitle'] = FALSE;
         $data['slider'] = TRUE;
