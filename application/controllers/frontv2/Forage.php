@@ -8,27 +8,29 @@ class Forage extends Front_Controller {
 
     function legumesMain() {
         $data['page'] = 'frontv2/forage/legumes/homepage';
-        $data['title'] = "Legumes";
-        $variable = json_decode(DESCRIPTION);
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['legumes-main']['title'];
+        $data['description'] = $variable['legumes-main']['discription'];
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
-        
+
         $this->load->view(FRONT_LAYOUT_V2, $data);
     }
 
     function legumes() {
         $data['page'] = 'frontv2/forage/legumes/legumes';
-        $data['title'] = "Leagumes";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['legumes']['title'];
+        $data['description'] = $variable['legumes']['discription'];
         $data['forage'] = 'active';
         $this->load->view(FRONT_LAYOUT_V2, $data);
     }
 
     function alfalfa() {
         $data['page'] = 'frontv2/forage/legumes/alfalfa';
-        $data['title'] = "Alfalfa";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['alfalfa']['title'];
+        $data['description'] = $variable['alfalfa']['discription'];
         $data['alfalfa'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -38,8 +40,9 @@ class Forage extends Front_Controller {
 
     function birdsfoottrefoil() {
         $data['page'] = 'frontv2/forage/legumes/birdsfoottrefoil';
-        $data['title'] = "Birdsfoot Trefoil";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['birdsfoot-trefoil']['title'];
+        $data['description'] = $variable['birdsfoot-trefoil']['discription'];
         $data['birdsfoottrefoil'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -49,8 +52,9 @@ class Forage extends Front_Controller {
 
     function sainfoin() {
         $data['page'] = 'frontv2/forage/legumes/sainfoin';
-        $data['title'] = "Sainfoin";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['sainfoin']['title'];
+        $data['description'] = $variable['sainfoin']['discription'];
         $data['sainfoin'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -60,8 +64,9 @@ class Forage extends Front_Controller {
 
     function whiteclover() {
         $data['page'] = 'frontv2/forage/legumes/whiteclover';
-        $data['title'] = "White Clover";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['white-clover']['title'];
+        $data['description'] = $variable['white-clover']['discription'];
         $data['whiteclover'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -71,8 +76,9 @@ class Forage extends Front_Controller {
 
     function ladinoclover() {
         $data['page'] = 'frontv2/forage/legumes/ladinoclover';
-        $data['title'] = "Ladino Clover";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['ladino-clover']['title'];
+        $data['description'] = $variable['ladino-clover']['discription'];
         $data['ladinoclover'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -82,8 +88,9 @@ class Forage extends Front_Controller {
 
     function alsikeclover() {
         $data['page'] = 'frontv2/forage/legumes/alsikeclover';
-        $data['title'] = "Alsike Clover";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['alsike-clover']['title'];
+        $data['description'] = $variable['alsike-clover']['discription'];
         $data['alsikeclover'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -93,8 +100,9 @@ class Forage extends Front_Controller {
 
     function doublecutredclover() {
         $data['page'] = 'frontv2/forage/legumes/doublecutredclover';
-        $data['title'] = "Double Cut Red Clover";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['double-cut-red-clover']['title'];
+        $data['description'] = $variable['double-cut-red-clover']['discription'];
         $data['doublecutredclover'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -104,8 +112,9 @@ class Forage extends Front_Controller {
 
     function singlecutredclover() {
         $data['page'] = 'frontv2/forage/legumes/singlecutredclover';
-        $data['title'] = "Single Cut Red Clover";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['single-cut-red-clover']['title'];
+        $data['description'] = $variable['single-cut-red-clover']['discription'];
         $data['singlecutredclover'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -115,8 +124,9 @@ class Forage extends Front_Controller {
 
     function yellowblossomsweetclover() {
         $data['page'] = 'frontv2/forage/legumes/yellowblossomsweetclover';
-        $data['title'] = "Yellow Blossom Sweet Clover";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['yellow-blossom-sweet-clover']['title'];
+        $data['description'] = $variable['yellow-blossom-sweet-clover']['discription'];
         $data['yellowblossomsweetclover'] = 'active-link';
         $data['legumes'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -126,18 +136,20 @@ class Forage extends Front_Controller {
 
     function grassesMain() {
         $data['page'] = 'frontv2/forage/grasses/homepage';
-        $data['title'] = "Grasses";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['grasses-main']['title'];
+        $data['description'] = $variable['grasses-main']['discription'];
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
-        
+
         $this->load->view(FRONT_LAYOUT_V2, $data);
     }
-    
+
     function timothy() {
         $data['page'] = 'frontv2/forage/grasses/timothy';
-        $data['title'] = "Timothy";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['timothy']['title'];
+        $data['description'] = $variable['timothy']['discription'];
         $data['timothy'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -147,8 +159,9 @@ class Forage extends Front_Controller {
 
     function reedcanarygrass() {
         $data['page'] = 'frontv2/forage/grasses/reedcanarygrass';
-        $data['title'] = "Reed Canary Grass";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['reed-canary-grass']['title'];
+        $data['description'] = $variable['reed-canary-grass']['discription'];
         $data['reedcanarygrass'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -158,8 +171,9 @@ class Forage extends Front_Controller {
 
     function orchardgrass() {
         $data['page'] = 'frontv2/forage/grasses/orchardgrass';
-        $data['title'] = "Orchard Grass";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['orchardgrass']['title'];
+        $data['description'] = $variable['orchardgrass']['discription'];
         $data['orchardgrass'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -169,8 +183,9 @@ class Forage extends Front_Controller {
 
     function tallfescue() {
         $data['page'] = 'frontv2/forage/grasses/tallfescue';
-        $data['title'] = "Tall Fescue";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['tall-fescue']['title'];
+        $data['description'] = $variable['tall-fescue']['discription'];
         $data['tallfescue'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -180,8 +195,9 @@ class Forage extends Front_Controller {
 
     function perennialryegrass() {
         $data['page'] = 'frontv2/forage/grasses/perennialryegrass';
-        $data['title'] = "Perennial Ryegrass";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['perennial-ryegrass']['title'];
+        $data['description'] = $variable['perennial-ryegrass']['discription'];
         $data['perennialryegrass'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -191,8 +207,9 @@ class Forage extends Front_Controller {
 
     function italianannualryegrass() {
         $data['page'] = 'frontv2/forage/grasses/italianannualryegrass';
-        $data['title'] = "Italian Annual Ryegrass";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['italian-annual-ryegrass']['title'];
+        $data['description'] = $variable['italian-annual-ryegrass']['discription'];
         $data['italianannualryegrass'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -202,8 +219,9 @@ class Forage extends Front_Controller {
 
     function festulolium() {
         $data['page'] = 'frontv2/forage/grasses/festulolium';
-        $data['title'] = "Festulolium";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['festulolium']['title'];
+        $data['description'] = $variable['festulolium']['discription'];
         $data['festulolium'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -213,8 +231,9 @@ class Forage extends Front_Controller {
 
     function smoothbromegrass() {
         $data['page'] = 'frontv2/forage/grasses/smoothbromegrass';
-        $data['title'] = "Smooth Bromegrass";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['smooth-bromegrass']['title'];
+        $data['description'] = $variable['smooth-bromegrass']['discription'];
         $data['smoothbromegrass'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -224,30 +243,33 @@ class Forage extends Front_Controller {
 
     function meadowbromegrass() {
         $data['page'] = 'frontv2/forage/grasses/meadowbromegrass';
-        $data['title'] = "Meadow Bromgrass";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['meadow-bromegrass']['title'];
+        $data['description'] = $variable['meadow-bromegrass']['discription'];
         $data['meadowbromegrass'] = 'active-link';
         $data['grasses'] = 'open active-tree';
         $data['forage'] = 'active';
 
         $this->load->view(FRONT_LAYOUT_V2, $data);
     }
-    
+
     function annualsMain() {
         $data['page'] = 'frontv2/forage/annuals/homepage';
-        $data['title'] = "Annuals";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['annuals-main']['title'];
+        $data['description'] = $variable['annuals-main']['discription'];
         $data['annuals'] = 'open active-tree';
         $data['forage'] = 'active';
-        
+
         $this->load->view(FRONT_LAYOUT_V2, $data);
     }
 
     function sorghumSudangrass() {
 
         $data['page'] = 'frontv2/forage/annuals/sorghumsudangrass';
-        $data['title'] = "Sorghum Sudangrass";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['sorghum-sudangrass']['title'];
+        $data['description'] = $variable['sorghum-sudangrass']['discription'];
         $data['sorghumsudangrass'] = 'active-link';
         $data['annuals'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -257,8 +279,9 @@ class Forage extends Front_Controller {
 
     function pearlMillet() {
         $data['page'] = 'frontv2/forage/annuals/pearlmillet';
-        $data['title'] = "Pearl Millet";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['pearl-millet']['title'];
+        $data['description'] = $variable['pearl-millet']['discription'];
         $data['pearlmillet'] = 'active-link';
         $data['annuals'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -268,8 +291,9 @@ class Forage extends Front_Controller {
 
     function teff() {
         $data['page'] = 'frontv2/forage/annuals/teff';
-        $data['title'] = "Teff";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['teff']['title'];
+        $data['description'] = $variable['teff']['discription'];
         $data['teff'] = 'active-link';
         $data['annuals'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -278,8 +302,9 @@ class Forage extends Front_Controller {
 
     function peaMixtures() {
         $data['page'] = 'frontv2/forage/annuals/peamixtures';
-        $data['title'] = "Pea Mixtures";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['pea-mixtures']['title'];
+        $data['description'] = $variable['pea-mixtures']['discription'];
         $data['peamixtures'] = 'active-link';
         $data['annuals'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -288,8 +313,9 @@ class Forage extends Front_Controller {
 
     function organic() {
         $data['page'] = 'frontv2/forage/organic/organic';
-        $data['title'] = "Organic";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['organic']['title'];
+        $data['description'] = $variable['organic']['discription'];
         $data['organicmain'] = 'active-link';
         $data['organic'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -298,8 +324,9 @@ class Forage extends Front_Controller {
 
     function pastureMain() {
         $data['page'] = 'frontv2/forage/pasture/homepage';
-        $data['title'] = "Pasture";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['pasture-main']['title'];
+        $data['description'] = $variable['pasture-main']['discription'];
         $data['pasturemain'] = 'active-link';
         $data['pasture'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -308,8 +335,9 @@ class Forage extends Front_Controller {
 
     function cattlePastureHighland() {
         $data['page'] = 'frontv2/forage/pasture/cattlepasturehighland';
-        $data['title'] = "Highland Cattle Pasture";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['permanent-pasture-cattle-pasture-highland']['title'];
+        $data['description'] = $variable['permanent-pasture-cattle-pasture-highland']['discription'];
         $data['cattlepasturehighland'] = 'active-link';
         $data['pasture'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -318,8 +346,9 @@ class Forage extends Front_Controller {
 
     function lowlandCattlePasture() {
         $data['page'] = 'frontv2/forage/pasture/lowlandcattlepasture';
-        $data['title'] = "Lowland Cattle Pasture";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['permanent-pasture-lowland-cattle-pasture']['title'];
+        $data['description'] = $variable['permanent-pasture-lowland-cattle-pasture']['discription'];
         $data['lowlandcattlepasture'] = 'active-link';
         $data['pasture'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -328,8 +357,9 @@ class Forage extends Front_Controller {
 
     function sheepGoatPasture() {
         $data['page'] = 'frontv2/forage/pasture/sheepgoatpasture';
-        $data['title'] = "Sheep/Goat  Pasture Mixture";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['permanent-pasture-sheep-goat-pasture']['title'];
+        $data['description'] = $variable['permanent-pasture-sheep-goat-pasture']['discription'];
         $data['sheepgoatpasture'] = 'active-link';
         $data['pasture'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -338,8 +368,9 @@ class Forage extends Front_Controller {
 
     function horseOrPaddockMixture() {
         $data['page'] = 'frontv2/forage/pasture/horseorpaddockmixture';
-        $data['title'] = "Horse Or Paddock Mixture";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['permanent-pasture-horse-or-paddock-mixture']['title'];
+        $data['description'] = $variable['permanent-pasture-horse-or-paddock-mixture']['discription'];
         $data['horseorpaddockmixture'] = 'active-link';
         $data['pasture'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -348,18 +379,20 @@ class Forage extends Front_Controller {
 
     function pastureRenevatorMixture() {
         $data['page'] = 'frontv2/forage/pasture/pasturerenevatormixture';
-        $data['title'] = "Pasture Renevator Mixture";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['pasture-renevator-mixture']['title'];
+        $data['description'] = $variable['pasture-renevator-mixture']['discription'];
         $data['pasturerenevatormixture'] = 'active-link';
         $data['pasture'] = 'open active-tree';
         $data['forage'] = 'active';
         $this->load->view(FRONT_LAYOUT_V2, $data);
     }
-    
+
     function alfalfaGrassMain() {
         $data['page'] = 'frontv2/forage/alfalfagrass/homepage';
-        $data['title'] = "Alfalfa Grass";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['alfalfa-grass-main']['title'];
+        $data['description'] = $variable['alfalfa-grass-main']['discription'];
         $data['alfalfagrass'] = 'open active-tree';
         $data['forage'] = 'active';
         $this->load->view(FRONT_LAYOUT_V2, $data);
@@ -367,8 +400,9 @@ class Forage extends Front_Controller {
 
     function alfalfaGrasslandMixture() {
         $data['page'] = 'frontv2/forage/alfalfagrass/alfalfagrasslandmixture';
-        $data['title'] = "Alfalfa Grassland Mixture";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['alfalfa-grassland-mixture']['title'];
+        $data['description'] = $variable['alfalfa-grassland-mixture']['discription'];
         $data['alfalfagrasslandmixture'] = 'active-link';
         $data['alfalfagrass'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -377,8 +411,9 @@ class Forage extends Front_Controller {
 
     function alfalfaTimothyGrasslandMixture() {
         $data['page'] = 'frontv2/forage/alfalfagrass/alfalfatimothygrasslandmixture';
-        $data['title'] = "Alfalfa/Timothy Grassland Mixture";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['alfalfa-timothy-grassland-mixture']['title'];
+        $data['description'] = $variable['alfalfa-timothy-grassland-mixture']['discription'];
         $data['alfalfatimothygrasslandmixture'] = 'active-link';
         $data['alfalfagrass'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -387,8 +422,9 @@ class Forage extends Front_Controller {
 
     function alfalfaGrassMixture() {
         $data['page'] = 'frontv2/forage/alfalfagrass/alfalfagrassmixture';
-        $data['title'] = "Alfalfa Grass Mixture";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['alfalfa-grass-mixture']['title'];
+        $data['description'] = $variable['alfalfa-grass-mixture']['discription'];
         $data['alfalfagrassmixture'] = 'active-link';
         $data['alfalfagrass'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -397,8 +433,9 @@ class Forage extends Front_Controller {
 
     function alfalfaGrassMixtureWithBrome() {
         $data['page'] = 'frontv2/forage/alfalfagrass/alfalfagrassmixturewithbrome';
-        $data['title'] = "Alfalfa Grass Mixture With Brome";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['alfalfa-grass-mixture-with-brome']['title'];
+        $data['description'] = $variable['alfalfa-grass-mixture-with-brome']['discription'];
         $data['alfalfagrassmixturewithbrome'] = 'active-link';
         $data['alfalfagrass'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -407,8 +444,9 @@ class Forage extends Front_Controller {
 
     function alfalfaWithAggressiveGrassMixture() {
         $data['page'] = 'frontv2/forage/alfalfagrass/alfalfawithaggressivegrassmixture';
-        $data['title'] = "Alfalfa With Aggressive Grass Mixture";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['alfalfa-with-aggressive-grass-mixture']['title'];
+        $data['description'] = $variable['alfalfa-with-aggressive-grass-mixture']['discription'];
         $data['alfalfawithaggressivegrassmixture'] = 'active-link';
         $data['alfalfagrass'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -417,8 +455,9 @@ class Forage extends Front_Controller {
 
     function dryCowHayMixture() {
         $data['page'] = 'frontv2/forage/alfalfagrass/drycowhaymixture';
-        $data['title'] = "Dry Cow Hay Mixture";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['dry-cow-hay-mixture']['title'];
+        $data['description'] = $variable['dry-cow-hay-mixture']['discription'];
         $data['drycowhaymixture'] = 'active-link';
         $data['alfalfagrass'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -427,17 +466,19 @@ class Forage extends Front_Controller {
 
     function alternativeHayMain() {
         $data['page'] = 'frontv2/forage/alternativehay/homepage';
-        $data['title'] = "Alternative Hay";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['alternative-hay-main']['title'];
+        $data['description'] = $variable['alternative-hay-main']['discription'];
         $data['alternativehay'] = 'open active-tree';
         $data['forage'] = 'active';
         $this->load->view(FRONT_LAYOUT_V2, $data);
     }
-    
+
     function hayPastureMixture() {
         $data['page'] = 'frontv2/forage/alternativehay/haypasturemixture';
-        $data['title'] = "Hay Pasture Mixture";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['hay-pasture-mixture']['title'];
+        $data['description'] = $variable['hay-pasture-mixture']['discription'];
         $data['haypasturemixture'] = 'active-link';
         $data['alternativehay'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -446,8 +487,9 @@ class Forage extends Front_Controller {
 
     function mixedlandMixture() {
         $data['page'] = 'frontv2/forage/alternativehay/mixedlandmixture';
-        $data['title'] = "Mixedland Mixture";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['mixedland-mixture']['title'];
+        $data['description'] = $variable['mixedland-mixture']['discription'];
         $data['mixedlandmixture'] = 'active-link';
         $data['alternativehay'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -456,8 +498,9 @@ class Forage extends Front_Controller {
 
     function lowlandMixture() {
         $data['page'] = 'frontv2/forage/alternativehay/lowlandmixture';
-        $data['title'] = "Lowland Mixture";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['lowland-mixture']['title'];
+        $data['description'] = $variable['lowland-mixture']['discription'];
         $data['lowlandmixture'] = 'active-link';
         $data['alternativehay'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -466,8 +509,9 @@ class Forage extends Front_Controller {
 
     function rollingFieldMixture() {
         $data['page'] = 'frontv2/forage/alternativehay/rollingfieldmixture';
-        $data['title'] = "Rolling Field Mixture";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['rolling-field-mixture']['title'];
+        $data['description'] = $variable['rolling-field-mixture']['discription'];
         $data['rollingfieldmixture'] = 'active-link';
         $data['alternativehay'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -476,8 +520,9 @@ class Forage extends Front_Controller {
 
     function alfalfaTimothy() {
         $data['page'] = 'frontv2/forage/alternativehay/alfalfatimothy';
-        $data['title'] = "Alfalfa-Timothy";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['alfalfa-timothy']['title'];
+        $data['description'] = $variable['alfalfa-timothy']['discription'];
         $data['alfalfatimothy'] = 'open active-tree';
         $data['forage'] = 'active';
         $this->load->view(FRONT_LAYOUT_V2, $data);
@@ -485,8 +530,9 @@ class Forage extends Front_Controller {
 
     function ouebecMaritime() {
         $data['page'] = 'frontv2/forage/alternativehay/ouebecmaritime';
-        $data['title'] = "Quebec & Maritime";
-        $data['description'] = "Description";
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['ouebec-maritime']['title'];
+        $data['description'] = $variable['ouebec-maritime']['discription'];
         $data['ouebecmaritime'] = 'open active-tree';
         $data['forage'] = 'active';
         $this->load->view(FRONT_LAYOUT_V2, $data);
@@ -521,131 +567,126 @@ class Forage extends Front_Controller {
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Forage_Legumes_Alfalfa_Endurance.pdf'));
     }
+
     function alfalfa_haygrazer_pdf() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/HayGrazer_Info_GeneralSeed.pdf'));
     }
-    
-    
-    
+
     function individual_turf_grass_arrowhead() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Arrowhead.pdf'));
     }
-    
+
     function individual_turf_grass_bluenote() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/BlueNote.pdf'));
     }
-    
+
     function individual_turf_grass_bolt() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Bolt.pdf'));
     }
-    
+
     function individual_turf_grass_legend() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Legend.pdf'));
     }
-    
+
     function individual_turf_grass_volt() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Volt.pdf'));
     }
-    
+
     function individual_turf_grass_stallite() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/StarliteII.pdf'));
     }
-    
+
     function individual_turf_grass_cardinal() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Cardinal-II.pdf'));
     }
-    
+
     function individual_turf_grass_compass() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Compass-II.pdf'));
     }
-    
+
     function individual_turf_grass_beacon() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Beacon.pdf'));
     }
-    
+
     function individual_turf_grass_blue() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Blueray.pdf'));
     }
-    
+
     function individual_turf_grass_dynamite() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Dynamite.pdf'));
     }
-    
+
     function individual_turf_grass_torsion() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Torison.pdf'));
     }
-    
+
     function individual_turf_grass_slider() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Slider.pdf'));
     }
-    
+
     function individual_turf_grass_fast() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Fastball.pdf'));
     }
-    
+
     function individual_turf_grass_grand() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/GrandSlamGLD.pdf'));
     }
-    
-    
+
     function individual_turf_grass_stellar() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Stellar.pdf'));
     }
-    
+
     function individual_turf_grass_breakout() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Breakout.pdf'));
     }
-    
+
     function individual_turf_grass_barracuda() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Barracuda.pdf'));
     }
-    
+
     function individual_turf_grass_piranha() {
         $this->output
                 ->set_content_type('application/pdf')
                 ->set_output(file_get_contents('public/frontv2/pdf/Pirahna.pdf'));
     }
-    
-    
-    
 
 }
 
