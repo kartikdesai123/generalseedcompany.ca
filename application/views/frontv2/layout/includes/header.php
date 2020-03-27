@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>General Seed Company Canada | <?php echo $title; ?></title>
+<title><?php echo $title; ?> - General Seed Company Canada</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="<?php echo $description; ?>" />
 <meta name="keywords" content="General Seed Company" />
