@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-sm-4 col-xs-12 footer-col-1">
-                <a href="index.html">
+                <a href="/">
                     <img src="<?= base_url(); ?>public/frontv2/images/general-seed-logo.png" class="img-responsive center-block" alt="general-seed-logo">
                 </a>
             </div>

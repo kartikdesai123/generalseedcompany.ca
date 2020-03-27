@@ -27,6 +27,7 @@ class Home extends Front_Controller {
         $data['js_plugin'] = array(
         );
         $data['init'] = array(
+            'Home_index.init()'
         );
 
         

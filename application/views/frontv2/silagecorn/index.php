@@ -75,12 +75,12 @@
                                                 <span style="color: #FFFFFF;font-size: 10px;padding: 5px">Plant Height</span>
                                             </td>
                                         </tr>
-                                        <tr style=" border-bottom:5px solid #ffffff;">
-                                            <td colspan="9" style="">
+                                        <tr style=" border-bottom:1px solid grey;">
+                                            <td colspan="10" style="">
 
                                             </td>
                                         </tr>
-                                        <tr  style="border-top: 7px solid #c4be25;">
+                                        <tr  class="smallnumber">
                                             <td align="right">1</td>
                                             <td align="right">2</td>
                                             <td align="right">3</td>
@@ -95,7 +95,7 @@
                                     </table>
                                 </td>
                             </tr>
-                            <tr style="border: 1px solid #ccccff;">
+<!--                            <tr style="border: 1px solid #ccccff;">
                                 <td style="padding: 10px"> 
                                     <div class="row">
                                         <div class="col-md-6">
@@ -159,7 +159,7 @@
                                         </tr>
                                     </table>
                                 </td>
-                            </tr>
+                            </tr>-->
                             <tr style="border: 1px solid #ccccff;">
                                 <td style="padding: 10px"> 
                                     <div class="row">
@@ -205,12 +205,12 @@
                                                 <span style="color: #FFFFFF;font-size: 10px;padding: 5px">Plant Height</span>
                                             </td>
                                         </tr>
-                                        <tr style=" border-bottom:5px solid #ffffff;">
-                                            <td colspan="9" style="">
+                                        <tr style=" border-bottom:1px solid grey;">
+                                            <td colspan="10" style="">
 
                                             </td>
                                         </tr>
-                                        <tr  style="border-top: 7px solid #c4be25;">
+                                        <tr  class="smallnumber">
                                             <td align="right">1</td>
                                             <td align="right">2</td>
                                             <td align="right">3</td>
@@ -275,12 +275,12 @@
                                                 <span style="color: #FFFFFF;font-size: 10px;padding: 5px">Plant Height</span>
                                             </td>
                                         </tr>
-                                        <tr style=" border-bottom:5px solid #ffffff;">
-                                            <td colspan="9" style="">
+                                        <tr style=" border-bottom:1px solid grey;">
+                                            <td colspan="10" style="">
 
                                             </td>
                                         </tr>
-                                        <tr  style="border-top: 7px solid #c4be25;">
+                                        <tr  class="smallnumber">
                                             <td align="right">1</td>
                                             <td align="right">2</td>
                                             <td align="right">3</td>
@@ -343,12 +343,12 @@
                                                 <span style="color: #FFFFFF;font-size: 10px;padding: 5px">Plant Height</span>
                                             </td>
                                         </tr>
-                                        <tr style=" border-bottom:5px solid #ffffff;">
-                                            <td colspan="9" style="">
+                                        <tr style=" border-bottom:1px solid grey;">
+                                            <td colspan="10" style="">
 
                                             </td>
                                         </tr>
-                                        <tr  style="border-top: 7px solid #c4be25;">
+                                        <tr  class="smallnumber">
                                             <td align="right">1</td>
                                             <td align="right">2</td>
                                             <td align="right">3</td>
@@ -410,12 +410,12 @@
                                                 <span style="color: #FFFFFF;font-size: 10px;padding: 5px">Plant Height</span>
                                             </td>
                                         </tr>
-                                        <tr style=" border-bottom:5px solid #ffffff;">
-                                            <td colspan="9" style="">
+                                        <tr style=" border-bottom:1px solid grey;">
+                                            <td colspan="10" style="">
 
                                             </td>
                                         </tr>
-                                        <tr  style="border-top: 7px solid #c4be25;">
+                                        <tr  class="smallnumber">
                                             <td align="right">1</td>
                                             <td align="right">2</td>
                                             <td align="right">3</td>
@@ -475,12 +475,12 @@
                                                 <span style="color: #FFFFFF;font-size: 10px;padding: 5px">Plant Height</span>
                                             </td>
                                         </tr>
-                                        <tr style=" border-bottom:5px solid #ffffff;">
-                                            <td colspan="9" style="">
+                                        <tr style=" border-bottom:1px solid grey;">
+                                            <td colspan="10" style="">
 
                                             </td>
                                         </tr>
-                                        <tr  style="border-top: 7px solid #c4be25;">
+                                        <tr  class="smallnumber">
                                             <td align="right">1</td>
                                             <td align="right">2</td>
                                             <td align="right">3</td>
@@ -1192,5 +1192,11 @@
     }
     td span.textalign{
         text-align: right;
+    }
+    tr .smallnumber{
+        font-size: 10px;
+        font-weight: bold;
+        font-family: serif;
+        color: black;
     }
 </style>

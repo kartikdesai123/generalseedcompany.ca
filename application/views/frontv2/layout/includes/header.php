@@ -33,7 +33,7 @@
 <!-- iOS Safari -->
 <meta name="apple-mobile-web-app-status-bar-style" content="#004a1b">
 
-<link rel="icon" href="images/ac-favicon.ico">
+<!--<link rel="icon" href="images/ac-favicon.ico">-->
 
 <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800" rel="stylesheet">
 
