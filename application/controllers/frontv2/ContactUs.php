@@ -8,7 +8,46 @@ class ContactUs extends Front_Controller {
     }
 
     function index() {
-        $this->generalInquiry();
+        if ($this->input->post()) {
+            $result = $this->GeneralInquiry_model->generalInquiry($this->input->post());
+            $this->session->set_flashdata('success', 'We will back you soon.');
+            redirect("products/contact-us/generalInquiry");
+            exit;
+            // if($result){
+            //    $return['status'] = 'success';
+            //    $return['message'] = 'Your Details susscefully send to mail.';
+            // }else{
+            //    $return['status'] = 'error';
+            //    $return['message'] = 'Something goes to wrong Please try again.';
+            // }
+            // echo json_encode($return);
+            //  exit;
+        }
+        $data['page'] = 'frontv2/contactus/generalInquiry';
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['contact-us']['title'];
+        $data['description'] = $variable['contact-us']['discription'];
+        $data['generalInquiry'] = 'open active-tree';
+        $data['contactus'] = 'active';
+
+        $data['js'] = array(
+            'toastr.min.js',
+            'jquery.validate.min.js',
+            'comman_function.js',
+            'generalInquiry.js',
+        );
+        $data['js_plugin'] = array(
+        );
+        $data['css'] = array(
+            'toastr.min.css',
+        );
+        $data['css_plugin'] = array(
+        );
+        $data['init'] = array(
+            'GeneralInquiry.init()',
+        );
+
+        $this->load->view(FRONT_LAYOUT_V2, $data);
     }
 
     function generalInquiry() {

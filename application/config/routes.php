@@ -200,13 +200,13 @@ $route['products/cover-crops/phacelia'] = 'frontv2/coverCrops/phacelia';
 
 $route['products/cover-crops/mixures'] = 'frontv2/coverCrops/mixures';
 
-$route['products/contact-us'] = 'frontv2/contactUs/generalInquiry';
+$route['products/contact-us'] = 'frontv2/contactUs/index';
 $route['products/contact-us/generalInquiry'] = 'frontv2/contactUs/generalInquiry';
 $route['products/contact-us/retailInquiry'] = 'frontv2/contactUs/retailInquiry';
 $route['products/contact-us/wholesaleInquiry'] = 'frontv2/contactUs/wholesaleInquiry';
 $route['products/contact-us/wholesaleOrder'] = 'frontv2/contactUs/wholesaleOrder';
 
-$route['products/dealer-inquires'] = 'frontv2/dealerInquires';
+$route['products/dealer-inquires'] = 'frontv2/DealerInquires';
 
 $route['products/articles'] = 'frontv2/articles';
 $route['products/articles/silagecorn-art-1'] = 'frontv2/articles/silageCornArt1';

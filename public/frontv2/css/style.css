@@ -395,7 +395,7 @@ header .navbar a.navbar-brand{
 }
 
 .hero-details .hero-logo-block .logo-details h2{
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 700;
     color: #fff;
     text-transform: capitalize;
@@ -742,7 +742,7 @@ ul.list-value li a:hover{
     color: #c4be25; 
 }
 .content-category .sidebar h2.active-page{
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 600;
     color: #004a1b;
     text-align: left;
