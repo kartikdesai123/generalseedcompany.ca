@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_PastureMixtures_PPHighlandCattlePasture.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Permanent Pasture Highland Cattle Pasture</h2>
+                        <h1>Permanent Pasture Highland Cattle Pasture</h1>
                         <p>A heavy duty pasture mix for cattle on fairly well drained soils. Comes with or without Brome depending on the personal preference.</p>
                     </div>
 

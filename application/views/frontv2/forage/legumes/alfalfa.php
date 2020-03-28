@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Legumes_Alfalfa.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Alfalfa  <span class="sub-h2">(Also Available In Organic)</span></h2>
+                        <h1>Alfalfa  <span class="sub-h2">(Also Available In Organic)</span></h1>
                         <p>Alfalfa is the main legume that is used in hay production. Alfalfa is usually cut 3 to 4 times a year, however some varieties are cut 5 times. Alfalfa is also used in pastures with specially bred pasture varieties.</p>
                     </div>
 

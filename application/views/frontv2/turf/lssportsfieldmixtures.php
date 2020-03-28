@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/turf/Turf_LSSportsFieldMixtures.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Lateral Spread SPORTS FIELD MIXTURES</h2>
+                        <h1>Lateral Spread SPORTS FIELD MIXTURES</h1>
                         <p>We offer 2 well-designed Sportsfield mixtures that have been well tested and continually planted on top Canadian University and Highschool sports field. The lateral spread ryegrass has improved these mixes considerably, with many new customers reached through recommendations.</p>
                     </div>
 

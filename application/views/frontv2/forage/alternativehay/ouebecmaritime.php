@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_QuebecMaritimeMixtures.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>QuEBEC & MARiTiME MiXTuRES</h2>
+                        <h1>QuEBEC & MARiTiME MiXTuRES</h1>
                         <p>We offer an arrangement of provincial mixtures that are available in Quebec and the Maritimes. We have many more provincial mixtures that are available, however, they are not presently on this web page. Please feel free to call or email for further inquiries.</p>
                     </div>
 

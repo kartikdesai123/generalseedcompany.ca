@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Grasses_TallFescue.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Tall Fescue</h2>
+                        <h1>Tall Fescue</h1>
                         <p>Tall Fescue is the most well rounded grass for hay that is available on the market today. Forage Tall Fescue handles all soil types, PH levels and moisture levels. It is very winter-hardy with a deep root system. It is very important to use endophyte free varieties.</p>
                     </div>
 

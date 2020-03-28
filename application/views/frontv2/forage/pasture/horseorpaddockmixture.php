@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_PastureMixtures_PPHorsePaddockMixture.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                            <h2>Horse or Paddock Mixture</h2>
+                            <h1>Horse or Paddock Mixture</h1>
                         <p>An endophyte free horse pasture mix that we have marketed for over 25 years. Can be used for new pastures or overseeding existing pastures.</p>
                     </div>
 

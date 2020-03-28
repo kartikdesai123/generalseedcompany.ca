@@ -12,7 +12,7 @@
                     <!--<img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Grasses.jpg" alt="Category images" class="img-responsive">-->
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Annuals_SorghumSudangrass.jpg" alt="Category images" class="img-responsive">
                     <div class="content-intro">
-                        <h2>Annuals</h2>
+                        <h1>Annuals</h1>
                         <p>Forage Annuals can be items that are only good for the year you plant them. Forage Annuals can be used for feed for different livestock and can also be used as green manure with other rotations. Planted into loose worked soil is highly recommended.</p>
                     </div>
 

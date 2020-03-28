@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Legumes_LadinoClover.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Ladino Clover </h2>
+                        <h1>Ladino Clover </h1>
                         <p>Ladino Clover is a tall growing type of White Clover with more yield, protein and forage quality. Ladino is mostly used when growing hay, but can also be used in lowland cattle pastures. Ladino thrives in cool, wet climates early in the spring. Ladino establishes easily and can be frost seeded. May cause bloating in pastures at high percentage.</p>
                     </div>
 

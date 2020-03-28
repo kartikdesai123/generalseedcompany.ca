@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_PastureMixtures_PastureRenovatorMixture.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Pasture Renevator Mixture</h2>
+                        <h1>Pasture Renevator Mixture</h1>
                         <p>An overseeding mixture for existing cattle pastures.</p>
                     </div>
 

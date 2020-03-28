@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_PastureMixtures_PPLowlandCattlePasture.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Permanent PastureLowland Cattle Pasture</h2>
+                        <h1>Permanent PastureLowland Cattle Pasture</h1>
                         <p>A heavy-duty pasture mix for lowland or poor PH soil types. Comes with or without Brome depending on the personal preference.</p>
                     </div>
 

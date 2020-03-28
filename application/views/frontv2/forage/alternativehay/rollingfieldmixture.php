@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_AlternativeHayMixtures_RollingField.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>A4: Rolling Field Mixture</h2>
+                        <h1>A4: Rolling Field Mixture</h1>
                         <p>A great solid mixture for rolling fields with a few low waterways where Alfalfa will only last a couple of years but most of the land is well drained.</p>
                     </div>
 

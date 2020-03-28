@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Grasses_SmoothBromegrass.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Smooth Bromegrass </h2>
+                        <h1>Smooth Bromegrass </h1>
                         <p>Smooth Bromegrass is a long-living, deep-rooted perennial grass. Smooth Bromegrass is ideal in hay mixes with its wide leaves making it highly palatable. Smooth Bromegrass can withstand periods of flooding, drought, all PH levels, and is winter-hardy. Smooth Bromegrass is slow to get established.</p>
                     </div>
 

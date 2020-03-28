@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_AlfalfaGrassMixtures_AlfalfaGrassMixtureBrome.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>AG4: Alfalfa Grass Mixture with Brome</h2>
+                        <h1>AG4: Alfalfa Grass Mixture with Brome</h1>
                         <p>An awesome mixture that makes a large volume of hay. Ideal mixture for cow and calf operations which prefer dry hay that is soft and palatable.</p>
                     </div>
 

@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/cover_crops/CoverCrops_Legumes.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>LEGUMES</h2>
+                        <h1>LEGUMES</h1>
                         <p>These are the current covercrop legumes we offer. Some of the legumes will winter kill while other survive the winter to fix quick nitrogen the next spring. We purchase our covercrop legume from only a few growers to ensure our customers receive the same varieties each year. So they know what to expect from year to year on their legumes and their cover-crop mix.</p>
                     </div>
 

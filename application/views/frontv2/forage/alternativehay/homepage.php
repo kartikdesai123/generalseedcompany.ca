@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_AlternativeHayMixtures.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>ALTERNATIVE HAY  MIXTURES</h2>
+                        <h1>ALTERNATIVE HAY  MIXTURES</h1>
                         <p>These mixtures are designed for different usage or different field conditions.  These mixtures have been developed for multiple cuttings per year.  These mixtures have been perfected by many years of farm testing.</p>
                     </div>
 

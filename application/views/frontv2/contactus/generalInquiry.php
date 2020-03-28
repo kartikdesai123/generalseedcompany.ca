@@ -12,7 +12,8 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/contact_us/8ContactUs_GeneralInquires.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>GENERAL SEED COMPANY</h2>
+                        <h1>GENERAL INQUIRES</h1>
+                        <!--<h2>GENERAL SEED COMPANY</h2>-->
                         <div class="row">
                             <div class="col-sm-6 col-xs-12 mb-30-xs">
                                 <span>

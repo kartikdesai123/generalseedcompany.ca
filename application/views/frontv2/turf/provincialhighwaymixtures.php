@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/turf/Turf_ProvincialHighwayMixtures.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>PROVINCIAL HIGHWAY MIXTURES</h2>
+                        <h1>PROVINCIAL HIGHWAY MIXTURES</h1>
                         <p>We offer the following provincial highway mixtures. They can be used on the highways or on low main-tenance lawns that might be low in nutrients or organic matter.</p>
                     </div>
 

@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/cover_crops/CoverCrops_GrassGrain.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>GRASS/GRAIN</h2>
+                        <h1>GRASS/GRAIN</h1>
                         <p>These grasses or grains are used to mixes because of their aggressive root system to prevent blowing and eroding soil from happening. Mixtures have an arrangement of 1 to 3 different kinds of grasses or grains included, which are a blend of annual or bi-annual items. These items all can be used for feed if desired.</p>
                     </div>
 

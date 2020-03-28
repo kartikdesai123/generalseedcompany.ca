@@ -110,7 +110,7 @@ class ContactUs extends Front_Controller {
         $data['description'] = $variable['wholesaleInquiry']['discription'];
         $data['wholesaleInquiry'] = 'open active-tree';
         $data['contactus'] = 'active';
-        $data['vanue_artical'] = $this->vanueAddress('wholsale');
+//        $data['vanue_artical'] = $this->vanueAddress('wholsale');
 
         $this->load->view(FRONT_LAYOUT_V2, $data);
     }

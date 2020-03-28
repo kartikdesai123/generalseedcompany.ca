@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_PastureMixtures_PPSheepGoatPasture.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Sheep/Goat Pasture Mixture</h2>
+                        <h1>Sheep/Goat Pasture Mixture</h1>
                         <p>A pasture mix well tested over time that handles all soil types. This mix comes with or without Bromegrass.</p>
                     </div>
 

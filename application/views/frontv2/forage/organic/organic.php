@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Organic.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>AVAILABLE ORGANIC FORAGE SEED <img width="75" src="<?= base_url(); ?>public/frontv2/images/WEB_CSI-logo.jpg" alt="Category images" class="img-responsive" style="display: inline-block"></h2>
+                        <h1>AVAILABLE ORGANIC FORAGE SEED <img width="75" src="<?= base_url(); ?>public/frontv2/images/WEB_CSI-logo.jpg" alt="Category images" class="img-responsive" style="display: inline-block"></h1>
                         <p>We offer organic forage seed of many types that are certified organic through the CSI Organic forage seed provided must be from credible organic suppliers that have grown organic forage seed for many years and know what they’re doing from growing to the cleaning process.</p>
                     </div>
 

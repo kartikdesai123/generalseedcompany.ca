@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/turf/Turf_DeerPlotMixtures.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>DEER PLOT MIXTURES</h2>
+                        <h1>DEER PLOT MIXTURES</h1>
                         <p>Our well designed, yet simple Deer Plot mixtures have been a popular hit for the last ten years. These mixtures are ideal for the avid hunter or the homeowner in the country or the cottager who wants to sit on their dock and watch the deer graze.</p>
                     </div>
 

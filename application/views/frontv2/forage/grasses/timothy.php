@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Grasses_Timothy.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Timothy<span class="sub-h2">(Also Available In Organic)</span></h2>
+                        <h1>Timothy<span class="sub-h2">(Also Available In Organic)</span></h1>
                         <p>Timothy is used mainly for hay production, but also in some pasture mixes. Timothy makes an excellent companion grass for Alfalfa, Trefoil and Clover since it does not compete against Legumes. Timothy is very winter-hardy and has a high tolerance for cold temperatures. Timothy grows 3 to 4 feet tall.</p>
                     </div>
 

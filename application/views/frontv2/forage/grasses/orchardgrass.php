@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Orchardgrass.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Orchardgrass  <span class="sub-h2">(Also Available In Organic)</span></h2>
+                        <h1>Orchardgrass  <span class="sub-h2">(Also Available In Organic)</span></h1>
                         <p>Orchardgrass is one of the best forage grasses available on the market. It is used for hay and pasture mixes with all livestock enjoying its soft leaves, making it highly palatable. Orchardgrass is a cool-season bunch grass that produces very thick and dense stands in most growing climates. For increased palatability, cut at the heading out stage.</p>
                     </div>
 

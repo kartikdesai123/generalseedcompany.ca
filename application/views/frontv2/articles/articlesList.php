@@ -11,7 +11,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/articles/Articles_lead.jpg" alt="Category images" class="img-responsive" width="100%">
 
                     <div class="content-intro">
-                        <h2>ARTICLES FOR YOUR ENJOYMENT</h2>
+                        <h1>ARTICLES FOR YOUR ENJOYMENT</h1>
                         <!--<p>Three to four sentence paragraph intoduction about Forage Seed Grasses. Nam quam, sinis ad que acias aut repuda soloriae. Itassit volorepratur soluptas ipsum am, que se pratqui stium, cus, quid quam volore, volum et vel ius non eium core nobita se earchictur.</p>-->
                     </div>
 

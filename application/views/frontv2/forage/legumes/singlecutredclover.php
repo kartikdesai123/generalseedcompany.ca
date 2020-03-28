@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Legumes_SingleCutRedClover.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Single Cut Red Clover   <span class="sub-h2">(Also Available In Organic)</span></h2>
+                        <h1>Single Cut Red Clover   <span class="sub-h2">(Also Available In Organic)</span></h1>
                         <p>Single Cut Red Clover is known as a one cut Red Clover if left for hay. Single Cut is always used for a plowdown Cover Crop Red Clover. Single Cut Red Clover is not as aggressive as Double Cut Red Clover. It is used mainly for frost seeded winter wheat or planted under spring grain. Single Cut Red Clover can produce up to 90 lb. of nitrogen as a Cover Crop.</p>
                     </div>
 

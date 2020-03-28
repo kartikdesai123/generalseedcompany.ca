@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Grasses_MeadowBromegrass.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Meadow Bromegrass </h2>
+                        <h1>Meadow Bromegrass </h1>
                         <p>Meadow Bromegrass is a long-living perennial used mainly for pasture. Pasture yields in Meadow Bromegrass are higher than Smooth Bromegrass because it recovers from grazing much more rapidly. It is slow to get established but once growing it is very winter-hardy.</p>
                     </div>
 

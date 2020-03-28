@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Grasses_ItalianAnnualRyegrass.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Italian Annual Ryegrass  <span class="sub-h2">(Also Available In Organic)</span></h2>
+                        <h1>Italian Annual Ryegrass  <span class="sub-h2">(Also Available In Organic)</span></h1>
                         <p>Italian Ryegrass is an awesome bi-annual grass. Italian Ryegrass can be used as pasture, haylage, or in Cover Crop mixtures. It is high in sugar-content, soft-textured, and is extremely palatable. It is not the most winter-hardy grass available on the market.</p>
                     </div>
 

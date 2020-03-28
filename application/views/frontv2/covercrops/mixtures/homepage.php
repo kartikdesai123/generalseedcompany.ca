@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/cover_crops/CoverCrops_Mixtures.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Cover Crop Mixtures</h2>
+                        <h1>Cover Crop Mixtures</h1>
                         <p>These time-tested cover-crop mixtures are designed for different cropping rotations. Some mixtures are created for soybeans to be planted the next year while others are designed for corn the following year. The cocktail mixtures are designed with some overwintering legume varieties for quick nitrogen fixation for the following spring. Please call or email with inquiries for whichever mix works into your operations.</p>
                     </div>
 

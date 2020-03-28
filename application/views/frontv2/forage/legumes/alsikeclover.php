@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Legumes_AlsikeClover.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Alsike Clover   <span class="sub-h2">(Also Available In Organic)</span></h2>
+                        <h1>Alsike Clover   <span class="sub-h2">(Also Available In Organic)</span></h1>
                         <p>Alsike Clover is a fast-growing, short-living perennial clover. Alsike Clover is adapted to cool climates and heavy, poorly drained clay soils. Alsike Clover can be used for all livestock, except horses. In pasture mixes, use a very small amount because Alsike has bloating risks. Never use Alsike Clover in horse pastures or hay mixtures.</p>
                     </div>
 

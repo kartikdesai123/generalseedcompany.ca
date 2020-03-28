@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/turf/Turf_LSLawnSeedMixtures_1.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Lateral Spread LAWN SEED MIXTURES</h2>
+                        <h1>Lateral Spread LAWN SEED MIXTURES</h1>
                         <p>Lateral Spread lawn mixtures have a spreading tiller which fills in bare spots fast for increasing density to prevent possible weed pressures. These mixtures are find leafed and dark green in colour. Each mix is custom designed making our seed company the only ones with this technology in Eastern Canada.</p>
                     </div>
 

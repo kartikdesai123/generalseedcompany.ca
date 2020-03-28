@@ -366,7 +366,7 @@ header .navbar a.navbar-brand{
 
 
 
-.hero-details h2{
+.hero-details h1{
     font-size: 28px;
     font-weight: 600;
     color: #fff;
@@ -599,7 +599,7 @@ footer.footer a.btn{
     margin-bottom: 35px;
 }
 
-.content-category .content-main .content-intro h2{
+.content-category .content-main .content-intro h1{
     font-size: 30px;
     font-weight: 600;
     color: #004a1b;

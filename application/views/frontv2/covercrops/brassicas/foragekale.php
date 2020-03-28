@@ -11,7 +11,7 @@
                 <div class="content-main">
                     <img src="<?= base_url(); ?>public/frontv2/images/cover_crops/CoverCrops_Brassicas_ForageKale.jpg" alt="Category images" class="img-responsive">
                     <div class="content-intro">
-                        <h2>Forage Kale</h2>
+                        <h1>Forage Kale</h1>
                         <div class="row ">
                             <div class="col-sm-12 col-xs-12 mb-30-xs">
                                 <ul class="list-value">

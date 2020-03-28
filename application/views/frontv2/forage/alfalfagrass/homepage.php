@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Legumes.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>ALFALFA / GRASS MIXTURES</h2>
+                        <h1>ALFALFA / GRASS MIXTURES</h1>
                         <p>These mixes are designed for different livestock that you are feeding.  Some mixtures are for haylage/baleage and others for dry hay, depending on the number of cuttings taken off the field each year.</p>
                     </div>
 

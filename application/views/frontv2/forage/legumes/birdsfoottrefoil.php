@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Legumes_BirdsfootTrefoil.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Birdsfoot Trefoil</h2>
+                        <h1>Birdsfoot Trefoil</h1>
                         <p>Birdsfoot Trefoil is a non-bloating legume used in pasture and hay mixtures. Trefoil likes growing in poorly drained land where Alfalfa doesn’t prosper. Trefoil is slow to get established compared to other legumes and grows up to 2 feet tall. It has a yellow flower.</p>
                     </div>
 

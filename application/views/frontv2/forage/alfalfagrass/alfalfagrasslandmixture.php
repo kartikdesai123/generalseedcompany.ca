@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_AlfalfaGrassMixtures_AlfalfaGrasslandMixture.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>AG1: Alfalfa Grassland Mixture</h2>
+                        <h1>AG1: Alfalfa Grassland Mixture</h1>
                         <p>A reliable, winter hardy, high yielding forage grass mixture that regrows for multiple cuts of highly palatable feed. Needs to have an aggressive cutting schedule.</p>
                     </div>
 

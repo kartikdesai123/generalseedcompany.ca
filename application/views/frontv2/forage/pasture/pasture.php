@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_PastureMixtures.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>PASTURE MIXTURES</h2>
+                        <h1>PASTURE MIXTURES</h1>
                         <p>Three to four sentence paragraph intoduction about Forage seed Grasses. Nam quam, sinis ad que acias aut repuda soloriae. Itassit volorepratur soluptas ipsum am, que se pratqui stium, cus, quid quam volore, volum et vel ius non eium core nobita se earchictur.</p>
                     </div>
 

@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Grasses_PerrenialRyegrass.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Perennial Ryegrass  <span class="sub-h2">(Also Available In Organic)</span></h2>
+                        <h1>Perennial Ryegrass  <span class="sub-h2">(Also Available In Organic)</span></h1>
                         <p>Perennial Ryegrass is a fine leafed grass with exceptional palatability. Perennial Ryegrass is often planted for hay or pasture mixes. Perennial Ryegrass should be kept at a lower percentage in mixtures because it can become too aggressive in the spring in comparison to other Grasses and Legumes.</p>
                     </div>
 

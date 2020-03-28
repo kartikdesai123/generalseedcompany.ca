@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/turf/Turf_PackagingInformation.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>packaging information</h2>
+                        <h1>packaging information</h1>
                         <p>General Seed Company packages lawn seed in various sized bags to suit your needs. Each mixture has a different
                             coloured tag for easy identification. Please call for further details or to place your order today.</p>
                     </div>

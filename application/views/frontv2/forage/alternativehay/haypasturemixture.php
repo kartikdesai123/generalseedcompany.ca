@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_AlternativeHayMixtures_HayPasture.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>A1: Hay & Pasture Mixture</h2>
+                        <h1>A1: Hay & Pasture Mixture</h1>
                         <p>One of the best hay and pasture mixtures on the market. Makes fine textured hay and yields lots of pasture. Comes with or without Brome, depending on your personal preference.</p>
                     </div>
 

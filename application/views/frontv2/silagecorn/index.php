@@ -17,7 +17,9 @@
                                             <br/>
                                             <p>More information to come.</p>
                                         </div>-->
-
+                    <div class="content-intro">
+                        <h1>Silage corn</h1>
+                    </div>
                     <table style="width: 100%;">
                         <thead>
                             <tr>

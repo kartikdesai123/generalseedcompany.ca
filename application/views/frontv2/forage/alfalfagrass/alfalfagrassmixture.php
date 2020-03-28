@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_AlfalfaGrassMixtures_AlfalfaGrassMixture.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>AG3: Alfalfa Grass Mixture</h2>
+                        <h1>AG3: Alfalfa Grass Mixture</h1>
                         <p>A grass mix with a high percentage of Alfalfa which ensures regrowth. Ideal mix for making dry hay that is soft and palatable.</p>
                     </div>
 

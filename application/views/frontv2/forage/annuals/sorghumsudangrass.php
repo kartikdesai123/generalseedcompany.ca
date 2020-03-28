@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Annuals_SorghumSudangrass.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Sorghum Sudangrass</h2>
+                        <h1>Sorghum Sudangrass</h1>
                         <p>Fast growing forage for multi-cut system. Primarily used for pasture, balage or green cropping. Hard to make dry hay.</p>
                     </div>
 

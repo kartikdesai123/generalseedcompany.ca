@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Annuals_Teff.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Teff</h2>
+                        <h1>Teff</h1>
                         <p>Teff is a fine-stemmed, warm-season annual grass that produces multiple crops of high quality forage. Must be planted into a firm seed bed.</p>
                     </div>
 

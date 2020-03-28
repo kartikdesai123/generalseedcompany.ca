@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_AlternativeHayMixtures_Lowland.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>A3: Lowland Mixture</h2>
+                        <h1>A3: Lowland Mixture</h1>
                         <p>An excellent lowland hay mixture. An ideal mixture for wet lowland with poor drainage. Can be used for hay or pasture. Comes with or without Brome, depending on your preference.</p>
                     </div>
 

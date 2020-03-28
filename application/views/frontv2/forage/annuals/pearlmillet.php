@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Annuals_PearlMillet.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Pearl Millet</h2>
+                        <h1>Pearl Millet</h1>
                         <p>High quality forage that can be used for pasture, haylage or green chopped. Has a high leaf to stem ratio. Adapts well to marginal soils especially sand.</p>
                     </div>
 

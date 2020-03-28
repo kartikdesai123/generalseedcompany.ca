@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/cover_crops/CoverCrops_Other.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>OTHER</h2>
+                        <h1>OTHER</h1>
                         <p>These have no real family of classification but still, have a purpose. It could act as a pollinator, a wire-worm control item, or an item with a strong taproot which looks pretty in the field.</p>
                     </div>
 

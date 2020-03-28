@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/turf/Turf_LawnSeedMixtures.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>LAWN SEED MIXTURES</h2>
+                        <h1>LAWN SEED MIXTURES</h1>
                         <p>These well-structured lawn mixtures are custom designed to do specific lawn use. These mixes do not contain lateral spreading varieties, which make these mixtures more economically priced, but a superior lawn mixture vs. similar mixtures offered on the current market.</p>
                     </div>
 

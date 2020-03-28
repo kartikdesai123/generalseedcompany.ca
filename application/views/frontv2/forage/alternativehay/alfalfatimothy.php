@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_AlfalfaTimothyMixtures.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Alfalfa-Timothy Mixture</h2>
+                        <h1>Alfalfa-Timothy Mixture</h1>
                         <p>Alfalfa mixtures are available with high alfalfa content for dairy and low Alfalfa percentage for horse hay.</p>
                     </div>
 

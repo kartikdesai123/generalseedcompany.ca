@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Annuals_PeaMixtures.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Pea Mixtures</h2>
+                        <h1>Pea Mixtures</h1>
                         <p>These mixtures offer excellent combinations of forage grain mixed with forage peas. These mixtures can be planted straight or as a nurse crop to your new seeding. Also can be planted in late summer for extra forage.</p>
                     </div>
 

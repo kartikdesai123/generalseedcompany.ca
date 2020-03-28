@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/turf/Turf_SodMixtures.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>SOD MIXTURES</h2>
+                        <h1>SOD MIXTURES</h1>
                         <p>We only use gold tagged Kentucky Bluegrass that has been tested multiple times for purity to make sod. The most popular mix is our 4-way sod because only the top available NETP varieties are used out of the Midnight, American and Compact Bluegrass families.</p>
                     </div>
 

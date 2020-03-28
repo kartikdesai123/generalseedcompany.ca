@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Legumes.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Legumes</h2>
+                        <h1>Legumes</h1>
                         <p>We offer an assortment of
                             different legumes. These legumes can be used for hay production to pastures of
                             different livestock. Some legumes have a bloat risk while others do not. Some are

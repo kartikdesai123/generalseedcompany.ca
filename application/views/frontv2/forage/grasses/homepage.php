@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Grasses.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Grasses</h2>
+                        <h1>Grasses</h1>
                         <p>We offer an arrangement of different grasses from late maturing, high sugar, high palatability, fast re-growth hay varieties to fast growing, high palatability and heavy traffic. We also offer grasses for pastures with many different livestock.</p>
                     </div>
 

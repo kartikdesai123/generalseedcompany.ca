@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/turf/Turf_IndividualTurfGrassItems.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>INDIVIDUAL TURF GRASS ITEMS</h2>
+                        <h1>INDIVIDUAL TURF GRASS ITEMS</h1>
                         <p>
                             Listed are all of the individual grass varieties we currently offer. Also listed is the different wildflower mixtures that are available. Native Seed varieties are also available, please feel free to call or email to discover what is the current supply.
                         </p>

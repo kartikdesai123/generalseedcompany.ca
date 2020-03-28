@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Legumes_YellowBlossomSweetClover.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Yellow Blossom Sweet Clover   <span class="sub-h2">(Also Available In Organic)</span></h2>
+                        <h1>Yellow Blossom Sweet Clover   <span class="sub-h2">(Also Available In Organic)</span></h1>
                         <p>Sweet Clover is a cold tolerant, biennial clover that is easy to establish. Sweet Clover can be used for haylage, cover crops, conservation and honey making. It looks like Alfalfa until it blossoms into flower. Yellow Blossom Sweet Clover grows 3 to 6 feet tall and will fix more than 100 lb. of nitrogen per acre as a Cover Crop. Yellow Blossom Sweet Clover has a vigorous root that penetrates heavy and hard soils.</p>
                     </div>
 

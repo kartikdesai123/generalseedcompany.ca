@@ -11,7 +11,7 @@
                 <div class="content-main">
 
                     <div class="content-intro">
-                        <h2>RETAIL INQUIRES   <span class="sub-h2">(Forage/GSL Silage/Covercrops)</span></h2>
+                        <h1>RETAIL INQUIRES   <span class="sub-h2">(Forage/GSL Silage/Covercrops)</span></h1>
                     </div>
 
                     <div class="available-list-category">

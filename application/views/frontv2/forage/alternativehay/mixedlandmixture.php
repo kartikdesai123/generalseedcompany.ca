@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_AlternativeHayMixtures_Mixedland.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>A2: Mixland Mixture</h2>
+                        <h1>A2: Mixland Mixture</h1>
                         <p>For rolling untiled land with high and low spots. Makes fine textured hay with large volumes for that kind of land. Can be used for hay and pasture. Comes with or without Brome, depending on your preference.</p>
                     </div>
 

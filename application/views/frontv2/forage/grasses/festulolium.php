@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Grasses_Festulolium.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Festulolium  <span class="sub-h2">(Also Available In Organic)</span></h2>
+                        <h1>Festulolium  <span class="sub-h2">(Also Available In Organic)</span></h1>
                         <p>Festulolium is a cross between Italian or Perennial Ryegrass and Tall or Meadow Fescue. By crossing the fescue and ryegrass, they are attempting to breed the fescue’s winter-hardiness and drought tolerance while keeping the palatability of the ryegrass.</p>
                     </div>
 

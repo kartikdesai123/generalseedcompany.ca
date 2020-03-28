@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Legumes_Sainfoin.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Sainfoin</h2>
+                        <h1>Sainfoin</h1>
                         <p>Sainfoin is a cool-season Legume that is non-bloating. Sainfoin can grow up to3 feet tall. Saintoin is used for hay or pasture. Sainfoin grows in areas where Alfalfa will not grow because of poor PH levels. Sainfoin gives the opportunity of taking one or two cuts of Legume type hay. The seed is extremely large. Some improved varieties have been bred lately.</p>
                     </div>
 

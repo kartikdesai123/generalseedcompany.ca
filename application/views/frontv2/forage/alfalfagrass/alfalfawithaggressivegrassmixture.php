@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_AlfalfaGrassMixtures_AlfalfaAggressiveGrassMixture.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>AG5: Alfalfa with Aggressive Grass Mixture</h2>
+                        <h1>AG5: Alfalfa with Aggressive Grass Mixture</h1>
                         <p>An aggressive grass mixture with lots of palatability. Great hay for small animals, calf hay or export hay which requires lots of grass.</p>
                     </div>
 

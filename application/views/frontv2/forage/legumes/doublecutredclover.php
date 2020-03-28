@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Legumes_DoubleCutRedClover.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Double Cut Red Clover   <span class="sub-h2">(Also Available In Organic)</span></h2>
+                        <h1>Double Cut Red Clover   <span class="sub-h2">(Also Available In Organic)</span></h1>
                         <p>Double Cut Red Clover is primarily used for hay or soil improvement. It is easy to get established with quick growth and high forage quality. Double Cut Red Clover will fix up to 90 lb. of nitrogen as a Cover Crop. Double Cut Red Clover will tolerate shade when frost seeded into winter wheat crops.</p>
                     </div>
 

@@ -10,7 +10,7 @@
             <div class="col-sm-9">
                 <div class="content-main">
                     <div class="content-intro">
-                        <h2>WHOLESALE ORDERS</h2>
+                        <h1>WHOLESALE ORDERS</h1>
                         <form class="" role="form" method="post" action="#" id="">
                             <div class="form-group">
                                 <div class="col-sm-8 col-xs-8 mb-30-xs">

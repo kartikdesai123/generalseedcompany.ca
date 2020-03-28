@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_PastureMixtures.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>PASTURE MIXTURES</h2>
+                        <h1>PASTURE MIXTURES</h1>
                         <p>We offer many pasture mixes for different livestock.  Some mixes are specially designed for well drained or poorly drained soils.  One mix is designed for frost seeding your cattle pasture in the Spring.</p>
                     </div>
 

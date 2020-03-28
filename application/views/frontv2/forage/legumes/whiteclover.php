@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Legumes_WhiteClover.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>White Clover</h2>
+                        <h1>White Clover</h1>
                         <p>White Clover is a short-growing, nitrogen-fixing perennial used in pastures, lawns, and deer plots. White Clover is used in high traffic areas to minimize soil compaction. Once established, it grows rapidly and spreads via above-ground stems or stolons. White Clover works well when frost seeded into existing pastures in the spring. Grows 3 to 6 inches in height. May cause bloating in pastures at a high percentage period.</p>
                     </div>
 

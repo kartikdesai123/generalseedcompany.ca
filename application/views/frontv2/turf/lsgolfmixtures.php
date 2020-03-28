@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/turf/Turf_LSGolfCourseMixtures.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Lateral Spread GOLF MIXTURES</h2>
+                        <h1>Lateral Spread GOLF MIXTURES</h1>
                         <p>We offer some golf course mixtures, but we have learned over the years that custom mixing mixtures for golf courses that are super-tenant is the best way of going. We use only the top NTEP varieties in our golf course mixtures. We would love to quote on your mixes for any golf course.</p>
                     </div>
 

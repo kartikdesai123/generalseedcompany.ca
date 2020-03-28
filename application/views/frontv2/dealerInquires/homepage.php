@@ -9,7 +9,7 @@
             <div class="col-sm-9">
                 <div class="content-main">
                     <div class="content-intro">
-                        <h2>DEALERSHIP INQUIRES ARE WELCOME </h2>
+                        <h1>DEALERSHIP INQUIRES ARE WELCOME </h1>
                         <p>Are you interested in becoming a General Seed Farm Dealer or a General Seed wholesale customer (have a retail business)? </p>
                     </div>
                     <div class="available-list-category">

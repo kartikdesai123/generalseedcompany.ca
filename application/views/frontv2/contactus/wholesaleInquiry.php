@@ -10,7 +10,7 @@
             <div class="col-sm-9">
                 <div class="content-main">
                     <div class="content-intro">
-                        <h2>WHOLESALE INQUIRES   <span class="sub-h2">(Forage/GSL Silage/Turf)</span></h2>
+                        <h1>WHOLESALE INQUIRES   <span class="sub-h2">(Forage/GSL Silage/Turf)</span></h1>
                     </div>
                 
                 <div class="available-list-category">

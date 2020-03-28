@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_AlfalfaGrassMixtures_DryCowHayMixture.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>AG6: Dry Cow Hay Mixture</h2>
+                        <h1>AG6: Dry Cow Hay Mixture</h1>
                         <p>A low potassium hay mixture for dry cows or for famers who wants pure grasses that will last a long time.</p>
                     </div>
 

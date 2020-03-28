@@ -12,7 +12,7 @@
                     <img src="<?= base_url(); ?>public/frontv2/images/forage/Forage_Grasses_ReedCanaryGrass.jpg" alt="Category images" class="img-responsive">
 
                     <div class="content-intro">
-                        <h2>Reed Canary Grass</h2>
+                        <h1>Reed Canary Grass</h1>
                         <p>Reed Canary Grass mainly grows in poorly drained land. It is a tall growing, winter-hardy grass that grows in all soils and has a wide leaf and quick regrowth. This grass is used in both hay and pasture mixes. It is extremely important to use low alkaloid varieties only.</p>
                     </div>
 
