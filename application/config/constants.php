@@ -255,10 +255,10 @@ define('DESCRIPTION', json_encode(
                     'annuals-main' => array(
                         'title' => 'Annuals Main',
                         'discription' => 'Forage Annuals can be items that are only good for the year you plant them. Forage Annuals can be used for feed for different livestock'),
-                    'sorghum-sudangrass' => array(
+                    'forage/sorghum-sudangrass' => array(
                         'title' => 'Forage Sorghum Sudangrass',
                         'discription' => 'Forage Sorghum Sudangrass - Fast growing forage for multi-cut system. Primarily used for pasture, balage or green cropping. Hard to make dry hay'),
-                    'pearl-millet' => array(
+                    'forage/pearl-millet' => array(
                         'title' => 'Forage Pearl Millet',
                         'discription' => 'High quality Forage forage that can be used for pasture, haylage or green chopped. Has a high leaf to stem ratio. Adapts well to marginal soils especially sand.'),
                     'teff' => array(

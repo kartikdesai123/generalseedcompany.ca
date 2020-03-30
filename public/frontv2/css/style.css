@@ -366,6 +366,15 @@ header .navbar a.navbar-brand{
 
 
 
+.hero-details h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
 .hero-details h1{
     font-size: 28px;
     font-weight: 600;

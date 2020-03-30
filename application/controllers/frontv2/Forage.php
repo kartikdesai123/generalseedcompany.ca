@@ -268,8 +268,8 @@ class Forage extends Front_Controller {
 
         $data['page'] = 'frontv2/forage/annuals/sorghumsudangrass';
         $variable = json_decode(DESCRIPTION, true);
-        $data['title'] = $variable['sorghum-sudangrass']['title'];
-        $data['description'] = $variable['sorghum-sudangrass']['discription'];
+        $data['title'] = $variable['forage/sorghum-sudangrass']['title'];
+        $data['description'] = $variable['forage/sorghum-sudangrass']['discription'];
         $data['sorghumsudangrass'] = 'active-link';
         $data['annuals'] = 'open active-tree';
         $data['forage'] = 'active';
@@ -280,8 +280,8 @@ class Forage extends Front_Controller {
     function pearlMillet() {
         $data['page'] = 'frontv2/forage/annuals/pearlmillet';
         $variable = json_decode(DESCRIPTION, true);
-        $data['title'] = $variable['pearl-millet']['title'];
-        $data['description'] = $variable['pearl-millet']['discription'];
+        $data['title'] = $variable['forage/pearl-millet']['title'];
+        $data['description'] = $variable['forage/pearl-millet']['discription'];
         $data['pearlmillet'] = 'active-link';
         $data['annuals'] = 'open active-tree';
         $data['forage'] = 'active';
