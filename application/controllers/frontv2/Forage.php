@@ -547,7 +547,7 @@ class Forage extends Front_Controller {
     function alfalfa_digest_pdf() {
         $this->output
                 ->set_content_type('application/pdf')
-                ->set_output(file_get_contents('public/frontv2/pdf/2019_GenSeedExtremeFlyer_FINAL.pdf'));
+                ->set_output(file_get_contents('public/frontv2/pdf/2019_GenSeedExtremeFlyer_CentreSpread.pdf'));
     }
 
     function alfalfa_cornerstone_pdf() {

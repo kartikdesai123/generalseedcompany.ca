@@ -158,6 +158,7 @@ $route['products/turf/individual-turf-grass'] = 'frontv2/turf/individualturfgras
 $route['products/turf/deer-plot-mixtures'] = 'frontv2/turf/deerplotmixtures';
 $route['products/turf/packaging-information'] = 'frontv2/turf/packaginginformation';
 
+$route['products/cover-crops'] = 'frontv2/coverCrops/covercrops';
 $route['products/cover-crops/legumes'] = 'frontv2/coverCrops/legumes';
 $route['products/cover-crops/brassicas'] = 'frontv2/coverCrops/brassicas';
 $route['products/cover-crops/grass-grain'] = 'frontv2/coverCrops/grassGrain';
