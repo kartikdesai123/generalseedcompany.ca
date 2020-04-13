@@ -11,7 +11,7 @@ class Forage extends Front_Controller {
         $variable = json_decode(DESCRIPTION, true);
         $data['title'] = $variable['forage']['title'];
         $data['description'] = $variable['forage']['discription'];
-        $data['legumes'] = 'open active-tree';
+        $data['forage'] = 'open active-tree';
         $data['forage'] = 'active';
 
         $this->load->view(FRONT_LAYOUT_V2, $data);

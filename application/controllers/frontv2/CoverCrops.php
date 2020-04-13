@@ -14,7 +14,7 @@ class CoverCrops extends Front_Controller {
         $variable = json_decode(DESCRIPTION, true);
         $data['title'] = $variable['covercrops']['title'];
         $data['description'] = $variable['covercrops']['discription'];
-        $data['legumes'] = 'open active-tree';
+        $data['covercrops'] = 'open active-tree';
         $data['covercrops'] = 'active';
 
         $this->load->view(FRONT_LAYOUT_V2, $data);
