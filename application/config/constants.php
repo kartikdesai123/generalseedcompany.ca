@@ -192,6 +192,9 @@ define('DESCRIPTION', json_encode(
                     'generalseedcompany' => array(
                         'title' => 'Ontario, Forage & Turf Seed',
                         'discription' => 'General Seed Company is serving top genetic varieties like ontario seed, forage seed, silage corn, turf seed, and cover crops in Canada'),
+                    'forage' => array(
+                        'title' => 'Forage',
+                        'discription' => 'General seed company canada offer an assortment of different forage. These forage can be used for hay production to pastures of different livestock.'),
                     'legumes-main' => array(
                         'title' => 'Legumes Main',
                         'discription' => 'General seed company canada offer an assortment of different legumes. These legumes can be used for hay production to pastures of different livestock.'),
@@ -333,6 +336,9 @@ define('DESCRIPTION', json_encode(
                     'silage-corn' => array(
                         'title' => 'Silage Corn',
                         'discription' => 'We offer best silege corn in canada, Its a high-quality forage crop that is used on many dairy farms and on some beef cattle farms in Tennessee'),
+                    'turf' => array(
+                        'title' => 'Turf',
+                        'discription' => 'Turf Seed.'),
                     'ls-lawn-seed-mixtures' => array(
                         'title' => 'Ls Lawn Seed Mixtures',
                         'discription' => 'Lateral Spread lawn mixtures have a spreading tiller which fills in bare spots fast for increasing density to prevent possible weed pressures.'),

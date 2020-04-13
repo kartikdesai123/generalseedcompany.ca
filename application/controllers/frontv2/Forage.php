@@ -6,6 +6,17 @@ class Forage extends Front_Controller {
         parent::__construct();
     }
 
+    function forage() {
+        $data['page'] = 'frontv2/forage/forage/homepage';
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['forage']['title'];
+        $data['description'] = $variable['forage']['discription'];
+        $data['legumes'] = 'open active-tree';
+        $data['forage'] = 'active';
+
+        $this->load->view(FRONT_LAYOUT_V2, $data);
+    }
+    
     function legumesMain() {
         $data['page'] = 'frontv2/forage/legumes/homepage';
         $variable = json_decode(DESCRIPTION, true);

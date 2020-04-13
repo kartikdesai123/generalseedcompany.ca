@@ -92,7 +92,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = TRUE;
 
 $route['products/forage/legumes-main'] = 'frontv2/forage/legumesMain';
-$route['products/forage'] = 'frontv2/forage/legumes';
+$route['products/forage'] = 'frontv2/forage/forage';
 $route['products/forage/alfalfa'] = 'frontv2/forage/alfalfa';
 $route['products/forage/birdsfoot-trefoil'] = 'frontv2/forage/birdsfoottrefoil';
 $route['products/forage/sainfoin'] = 'frontv2/forage/sainfoin';
@@ -148,6 +148,7 @@ $route['products/forage/ouebec-maritime'] = 'frontv2/forage/ouebecMaritime';
 
 $route['products/silage-corn'] = 'frontv2/silagecorn/silagecorn';
 
+$route['products/turf'] = 'frontv2/turf/turf';
 $route['products/turf/ls-lawn-seed-mixtures'] = 'frontv2/turf/lslawnseedmixtures';
 $route['products/turf/lawn-seed-mixtures'] = 'frontv2/turf/lawnseedmixtures';
 $route['products/turf/ls-sports-field-mixtures'] = 'frontv2/turf/lssportsfieldmixtures';

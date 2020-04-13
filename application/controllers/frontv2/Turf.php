@@ -6,6 +6,17 @@ class Turf extends Front_Controller {
         parent::__construct();
     }
 
+    function turf() {
+        $data['page'] = 'frontv2/turf/turf';
+        $variable = json_decode(DESCRIPTION, true);
+        $data['title'] = $variable['turf']['title'];
+        $data['description'] = $variable['turf']['discription'];
+        $data['lslawnseedmixtures'] = 'open active-tree';
+        $data['turf'] = 'active';
+
+        $this->load->view(FRONT_LAYOUT_V2, $data);
+    }
+    
     function lslawnseedmixtures() {
         $data['page'] = 'frontv2/turf/lslawnseedmixtures';
         $variable = json_decode(DESCRIPTION, true);
