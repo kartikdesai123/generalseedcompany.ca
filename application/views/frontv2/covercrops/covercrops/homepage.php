@@ -13,10 +13,10 @@
 
                     <div class="content-intro">
                         <h1>Cover Crops</h1>
-                        <p>These are the current covercrop legumes we offer. Some of the legumes will winter kill while other survive the winter to fix quick nitrogen the next spring. We purchase our covercrop legume from only a few growers to ensure our customers receive the same varieties each year. So they know what to expect from year to year on their legumes and their cover-crop mix.</p>
+                        <p>These are the current covercrop we offer. Some of the covercrop will winter kill while other survive the winter to fix quick nitrogen the next spring. We purchase our covercrop from only a few growers to ensure our customers receive the same varieties each year. So they know what to expect from year to year on their cover-crop mix.</p>
                     </div>
 
-                    <div class="available-list-category">
+<!--                    <div class="available-list-category">
                         <h3 class="title-with-border">AVAILABLE LEGUMES</h3>
                         <ul class="available-list">
                             <li><a href="<?= base_url(); ?>products/cover-crops/crimson-clover">Crimson Clover</a></li>
@@ -29,7 +29,7 @@
                             <li><a href="<?= base_url(); ?>products/cover-crops/faba-beans">Faba Beans</a></li>
                             <li><a href="<?= base_url(); ?>products/cover-crops/sun-hemp">Sun Hemp</a></li>
                         </ul>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>

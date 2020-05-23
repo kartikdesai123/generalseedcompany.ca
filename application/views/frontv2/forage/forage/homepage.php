@@ -14,12 +14,12 @@
                     <div class="content-intro">
                         <h1>Forage</h1>
                         <p>We offer an assortment of
-                            different legumes. These legumes can be used for hay production to pastures of
-                            different livestock. Some legumes have a bloat risk while others do not. Some are
+                            different Forage. These Forage can be used for hay production to pastures of
+                            different livestock. Some Forage have a bloat risk while others do not. Some are
                             also used as a cover crop for fixing nitrogen or bee pollination.</p>
                     </div>
 
-                    <div class="available-list-category">
+<!--                    <div class="available-list-category">
                         <h3 class="title-with-border">Available Legumes</h3>
                         <ul class="available-list">
                             <li><a href="<?= base_url(); ?>products/forage/alfalfa">Alfalfa</a></li>
@@ -32,7 +32,7 @@
                             <li><a href="<?= base_url(); ?>products/forage/single-cut-red-clover">Single Cut Red Clover</a></li>
                             <li><a href="<?= base_url(); ?>products/forage/yellow-blossom-sweet-clover">Yellow Blossom Sweet Clover</a></li>
                         </ul>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>

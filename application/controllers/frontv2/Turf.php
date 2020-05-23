@@ -11,7 +11,7 @@ class Turf extends Front_Controller {
         $variable = json_decode(DESCRIPTION, true);
         $data['title'] = $variable['turf']['title'];
         $data['description'] = $variable['turf']['discription'];
-        $data['lslawnseedmixtures'] = 'open active-tree';
+        $data['turf'] = 'open active-tree';
         $data['turf'] = 'active';
 
         $this->load->view(FRONT_LAYOUT_V2, $data);
