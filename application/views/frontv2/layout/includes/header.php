@@ -1,6 +1,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title><?php echo $title; ?> - General Seed Company Canada</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="<?php echo $description; ?>" />
 <meta name="keywords" content="General Seed Company" />
@@ -26,6 +27,13 @@
 
 <meta name="p:domain_verify" content="0f92f94323b5b6799dbac8195565a65f"/>
 
+<?php if(isset($active) && ($active == 'home')){?>
+<meta property="og:url" content="https://www.generalseedcompany.ca/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Ontario, Forage & Turf Seed - General Seed Company Canada" />
+<meta property="og:description" content="Serving top genetic varieties like ontario seed, forage seed, silage corn, turf seed, and cover crops in Canada." />
+<meta property="og:image" content="/public/frontv2/images/generalseedcompany.jpg" />
+<?php } ?>
 <!-- Chrome, Firefox OS and Opera -->
 <meta name="theme-color" content="#004a1b">
 <!-- Windows Phone -->
